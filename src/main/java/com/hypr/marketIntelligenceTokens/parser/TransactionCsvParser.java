@@ -20,7 +20,6 @@ public class TransactionCsvParser {
 
     public static Optional<TransactionModel> parse(String line) {
         try {
-            // Linha deve começar com data entre aspas
             if (!line.startsWith("\"")) {
                 return Optional.empty();
             }
@@ -30,45 +29,60 @@ public class TransactionCsvParser {
                 return Optional.empty();
             }
 
-            // 1) Data
+            // 1️⃣ DATA (obrigatória)
             String rawDate = line.substring(1, closingQuote);
             LocalDateTime timestamp =
                     LocalDateTime.parse(rawDate, DATE_FORMAT);
 
-            // 2) Restante das colunas
-            String remaining = line.substring(closingQuote + 2);
-            String[] cols = remaining.split(",", -1);
+            String[] cols = line.substring(closingQuote + 2)
+                    .split(",", -1);
 
-            // Esperado: token, sku, gmv, quantity, brand
             if (cols.length < 5) {
                 return Optional.empty();
             }
 
+            // 2️⃣ TOKEN (obrigatório)
             String token = cols[0].trim();
-
-            // Campos obrigatórios para transação válida
-            if (cols[1].isBlank()
-                    || cols[2].isBlank()
-                    || cols[3].isBlank()
-                    || cols[4].isBlank()) {
+            if (token.isBlank()) {
                 return Optional.empty();
             }
 
-            long sku = Long.parseLong(cols[1].trim());
-            BigDecimal gmv = new BigDecimal(cols[2].trim());
-            int quantity = Integer.parseInt(cols[3].trim());
-            int brand = Integer.parseInt(cols[4].trim());
+            // 3️⃣ SKU (opcional)
+            Long sku = cols[1].isBlank()
+                    ? null
+                    : Long.parseLong(cols[1].trim());
 
-            return Optional.of(new TransactionModel(
-                    timestamp,
-                    token,
-                    sku,
-                    gmv,
-                    quantity,
-                    brand
-            ));
+            // 4️⃣ BRAND (opcional)
+            Integer brand = cols[4].isBlank()
+                    ? null
+                    : Integer.parseInt(cols[4].trim());
 
-        } catch (NumberFormatException | DateTimeParseException e) {
+            boolean complete =
+                    brand != null &&
+                            !cols[2].isBlank() &&
+                            !cols[3].isBlank();
+
+            BigDecimal gmv = complete
+                    ? new BigDecimal(cols[2].trim())
+                    : null;
+
+            Integer quantity = complete
+                    ? Integer.parseInt(cols[3].trim())
+                    : null;
+
+            return Optional.of(
+                    new TransactionModel(
+                            timestamp,
+                            token,
+                            sku,
+                            brand,
+                            gmv,
+                            quantity,
+                            complete
+                    )
+            );
+
+        } catch (Exception e) {
             return Optional.empty();
         }
     }
