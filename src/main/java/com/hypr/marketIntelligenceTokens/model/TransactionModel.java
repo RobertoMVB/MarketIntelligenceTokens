@@ -11,12 +11,12 @@ public class TransactionModel {
     Modelo imutável → segurança e paralelismo
     */
 
-    private final LocalDateTime timestamp;
-    private final String token;
-    private final long sku;
-    private final BigDecimal gmv;
-    private final int quantity;
-    private final int brand;
+    private LocalDateTime timestamp;
+    private String token;
+    private Long sku;        // nullable
+    private BigDecimal gmv;  // nullable
+    private Integer quantity; // nullable
+    private Integer brand;
 
     public TransactionModel(
             LocalDateTime timestamp,
@@ -58,5 +58,8 @@ public class TransactionModel {
         return brand;
     }
 
+    public boolean isComplete() {
+        return sku != null && gmv != null && quantity != null && brand != null;
+    }
 
 }

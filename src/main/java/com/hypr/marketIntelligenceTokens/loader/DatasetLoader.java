@@ -13,35 +13,43 @@ import java.util.stream.Stream;
 
 public class DatasetLoader {
 
-    public static List<TransactionModel> load(Path csvPath, boolean parallel) throws IOException {
-        AtomicInteger invalidLines = new AtomicInteger(0);
+    public static List<TransactionModel> load(Path csvPath) throws IOException {
+
+        AtomicInteger invalid = new AtomicInteger();
+        AtomicInteger incomplete = new AtomicInteger();
 
         try (Stream<String> lines = Files.lines(csvPath)) {
 
-            Stream<String> dataStream = lines.skip(1); // ignora header
+            List<TransactionModel> dataset = lines
+                    .skip(1) // header
+                    .map(line -> {
+                        String[] cols = line.split(",");
 
-            if (parallel) {
-                dataStream = dataStream.parallel();
-            }
-
-            List<TransactionModel> dataset = dataStream
-                    .map(TransactionCsvParser::parse)
-                    .peek(opt -> {
-                        if (opt.isEmpty()) {
-                            invalidLines.incrementAndGet();
+                        if (cols.length < 6) {
+                            incomplete.incrementAndGet();
+                            return Optional.<TransactionModel>empty();
                         }
+
+                        Optional<TransactionModel> opt =
+                                TransactionCsvParser.parse(line);
+
+                        if (opt.isEmpty()) {
+                            invalid.incrementAndGet();
+                        }
+
+                        return opt;
                     })
                     .flatMap(Optional::stream)
                     .toList();
 
             System.out.println("Linhas válidas: " + dataset.size());
-            System.out.println("Linhas inválidas ignoradas: " + invalidLines.get());
+            System.out.println("Linhas incompletas (campos ausentes): " + incomplete.get());
+            System.out.println("Linhas inválidas (parse): " + invalid.get());
 
             return dataset;
         }
     }
 
     private DatasetLoader() {
-
     }
 }

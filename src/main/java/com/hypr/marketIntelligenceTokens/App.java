@@ -19,7 +19,7 @@ public class App
         System.out.println( "Market Intelligence Tokens!" );
         Path csvPath = Path.of(args[0]);
         try {
-            List<TransactionModel> dataset = DatasetLoader.load(csvPath, true); // true = parallel
+            List<TransactionModel> dataset = DatasetLoader.load(csvPath); // true = parallel
             System.out.println("Dataset carregado com sucesso.");
             Path outputDir = Path.of("output");
             SkuConcentrationAnalyzer.analyze(dataset, outputDir);
