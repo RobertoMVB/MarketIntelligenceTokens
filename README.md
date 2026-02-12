@@ -1,8 +1,5 @@
 # MarketIntelligenceTokens
 Transform raw transactional artifacts into actionable market intelligence.
-
-# Market Intelligence Tokens
-
 This project processes transaction data from CSV files following a specific format.
 
 ## Introduction and Methodology
