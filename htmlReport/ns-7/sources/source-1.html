@@ -1,0 +1,344 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > HtmlReportGenerator</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.hypr.marketIntelligenceTokens.report</a>
+</div>
+
+<h1>Coverage Summary for Class: HtmlReportGenerator (com.hypr.marketIntelligenceTokens.report)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">HtmlReportGenerator</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/11)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package com.hypr.marketIntelligenceTokens.report;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.io.InputStream;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.util.Properties;
+&nbsp;
+&nbsp;public final class HtmlReportGenerator {
+&nbsp;
+&nbsp;    private static String apiKey;
+&nbsp;
+&nbsp;    static {
+<b class="nc">&nbsp;        Properties props = new Properties();</b>
+<b class="nc">&nbsp;        try (InputStream in = HtmlReportGenerator.class.getClassLoader()</b>
+<b class="nc">&nbsp;                .getResourceAsStream(&quot;application.properties&quot;)) {</b>
+<b class="nc">&nbsp;            if (in == null) throw new RuntimeException(&quot;application.properties NOT FOUND !&quot; +</b>
+&nbsp;                    &quot; Have you asked the properties files for Roberto?&quot;);
+<b class="nc">&nbsp;            props.load(in);</b>
+<b class="nc">&nbsp;            apiKey = props.getProperty(&quot;ai.key&quot;);</b>
+&nbsp;        } catch (IOException e) {
+<b class="nc">&nbsp;            throw new RuntimeException(e);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;
+&nbsp;    public static void generate(Path outputDir) throws IOException {
+<b class="nc">&nbsp;        Files.createDirectories(outputDir);</b>
+<b class="nc">&nbsp;        Files.writeString(outputDir.resolve(&quot;index.html&quot;), html(apiKey));</b>
+<b class="nc">&nbsp;        System.out.println(&quot;HTML report gerado com gráficos e botão de avaliação com IA.&quot;);</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static String html(String apiKey) {
+<b class="nc">&nbsp;        return String.format(&quot;&quot;&quot;</b>
+&nbsp;&lt;!DOCTYPE html&gt;
+&nbsp;&lt;html lang=&quot;pt-BR&quot;&gt;
+&nbsp;&lt;head&gt;
+&nbsp;&lt;meta charset=&quot;UTF-8&quot;&gt;
+&nbsp;&lt;title&gt;Market Intelligence Report - Gemini AI&lt;/title&gt;
+&nbsp;&lt;script src=&quot;https://cdn.jsdelivr.net/npm/chart.js&quot;&gt;&lt;/script&gt;
+&nbsp;&lt;style&gt;
+&nbsp;    body { font-family: Arial, sans-serif; background: #f5f6fa; margin: 20px; color: #333; }
+&nbsp;    h1 { margin-bottom: 5px; }
+&nbsp;    .subtitle { color: #666; margin-bottom: 20px; }
+&nbsp;    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 30px; }
+&nbsp;    .card { background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+&nbsp;    .card h3 { margin: 0; font-size: 14px; color: #777; }
+&nbsp;    .card p { margin: 5px 0 0; font-size: 22px; font-weight: bold; }
+&nbsp;    .section { background: white; padding: 20px; border-radius: 6px; margin-bottom: 30px; }
+&nbsp;    table { width: 100%%; border-collapse: collapse; margin-top: 15px; }
+&nbsp;    th, td { padding: 8px; border-bottom: 1px solid #eee; text-align: right; }
+&nbsp;    th { background: #fafafa; }
+&nbsp;    th:first-child, td:first-child { text-align: left; }
+&nbsp;    button#evaluateAI { background: #1a73e8; color: white; border: none; padding: 12px 20px; border-radius: 4px; cursor: pointer; margin-bottom: 20px; font-weight: bold; font-size: 16px; }
+&nbsp;    button#evaluateAI:hover { background: #1557b0; }
+&nbsp;    button#evaluateAI:disabled { background: #ccc; cursor: not-allowed; }
+&nbsp;    #aiResponse { 
+&nbsp;        background: #ffffff; padding: 20px; border-radius: 8px; border-left: 6px solid #1a73e8; 
+&nbsp;        margin-bottom: 30px; display: none; white-space: pre-wrap; line-height: 1.6;
+&nbsp;        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+&nbsp;    }
+&nbsp;    .loading-spinner { display: inline-block; width: 12px; height: 12px; border: 2px solid #ffffff; border-radius: 50%%; border-top-color: transparent; animation: spin 1s linear infinite; margin-right: 8px; }
+&nbsp;    @keyframes spin { to { transform: rotate(360deg); } }
+&nbsp;&lt;/style&gt;
+&nbsp;&lt;/head&gt;
+&nbsp;&lt;body&gt;
+&nbsp;
+&nbsp;&lt;h1&gt;Market Intelligence&lt;/h1&gt;
+&nbsp;&lt;div class=&quot;subtitle&quot;&gt;Relatório Consolidado — Inteligência Artificial Aplicada&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div style=&quot;text-align: center;&quot;&gt;
+&nbsp;    &lt;button id=&quot;evaluateAI&quot;&gt;Avaliar com Gemini AI&lt;/button&gt;
+&nbsp;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div id=&quot;aiResponse&quot;&gt;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div class=&quot;cards&quot; id=&quot;cards&quot;&gt;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div class=&quot;section&quot;&gt;
+&nbsp;    &lt;h2&gt;GMV por Brand&lt;/h2&gt;
+&nbsp;    &lt;canvas id=&quot;brandChart&quot;&gt;&lt;/canvas&gt;
+&nbsp;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div class=&quot;section&quot;&gt;
+&nbsp;    &lt;h2&gt;GMV por Dia&lt;/h2&gt;
+&nbsp;    &lt;canvas id=&quot;dailyChart&quot;&gt;&lt;/canvas&gt;
+&nbsp;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;div class=&quot;section&quot;&gt;
+&nbsp;    &lt;h2&gt;Detalhamento Diário&lt;/h2&gt;
+&nbsp;    &lt;table id=&quot;dailyTable&quot;&gt;
+&nbsp;        &lt;thead&gt;
+&nbsp;            &lt;tr&gt;
+&nbsp;                &lt;th&gt;Data&lt;/th&gt;
+&nbsp;                &lt;th&gt;Transações&lt;/th&gt;
+&nbsp;                &lt;th&gt;Completas&lt;/th&gt;
+&nbsp;                &lt;th&gt;Incompletas&lt;/th&gt;
+&nbsp;                &lt;th&gt;GMV&lt;/th&gt;
+&nbsp;            &lt;/tr&gt;
+&nbsp;        &lt;/thead&gt;
+&nbsp;        &lt;tbody&gt;&lt;/tbody&gt;
+&nbsp;    &lt;/table&gt;
+&nbsp;&lt;/div&gt;
+&nbsp;
+&nbsp;&lt;script&gt;
+&nbsp;const state = { overview: null, sku: null, brand: null, daily: null };
+&nbsp;
+&nbsp;// --- CONFIGURAÇÃO ---
+&nbsp;const GEMINI_API_KEY = &#39;%s&#39;;
+&nbsp;
+&nbsp;async function loadJson(name) {
+&nbsp;    try {
+&nbsp;        const res = await fetch(name);
+&nbsp;        return await res.json();
+&nbsp;    } catch (e) {
+&nbsp;        console.warn(&quot;Aviso: Arquivo &quot; + name + &quot; não encontrado.&quot;);
+&nbsp;        return null;
+&nbsp;    }
+&nbsp;}
+&nbsp;
+&nbsp;async function init() {
+&nbsp;    state.overview = await loadJson(&#39;overview.json&#39;);
+&nbsp;    state.sku = await loadJson(&#39;sku_concentration.json&#39;);
+&nbsp;    state.brand = await loadJson(&#39;brand_gmv.json&#39;);
+&nbsp;    state.daily = await loadJson(&#39;daily_brand_overview.json&#39;);
+&nbsp;    render();
+&nbsp;}
+&nbsp;
+&nbsp;function render() {
+&nbsp;    renderCards();
+&nbsp;    renderBrandChart();
+&nbsp;    renderDailyChart();
+&nbsp;    renderDailyTable();
+&nbsp;}
+&nbsp;
+&nbsp;function renderCards() {
+&nbsp;    const c = document.getElementById(&#39;cards&#39;);
+&nbsp;    c.innerHTML = &#39;&#39;;
+&nbsp;    if (state.overview) {
+&nbsp;        c.innerHTML += &#39;&lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Total GMV&lt;/h3&gt;&lt;p&gt;&#39; + state.overview.totalGmv.toFixed(2) + &#39;&lt;/p&gt;&lt;/div&gt;&#39;;
+&nbsp;        c.innerHTML += &#39;&lt;div class=&quot;card&quot;&gt;&lt;h3&gt;Transações&lt;/h3&gt;&lt;p&gt;&#39; + state.overview.totalTransactions + &#39;&lt;/p&gt;&lt;/div&gt;&#39;;
+&nbsp;    }
+&nbsp;    if (state.sku) {
+&nbsp;        c.innerHTML += &#39;&lt;div class=&quot;card&quot;&gt;&lt;h3&gt;SKUs Totais&lt;/h3&gt;&lt;p&gt;&#39; + state.sku.totalSkus + &#39;&lt;/p&gt;&lt;/div&gt;&#39;;
+&nbsp;    }
+&nbsp;}
+&nbsp;
+&nbsp;function renderBrandChart() {
+&nbsp;    if (!state.brand) return;
+&nbsp;    const labels = state.brand.brands.map(b =&gt; &quot;Marca &quot; + b.brand);
+&nbsp;    const data = state.brand.brands.map(b =&gt; b.gmv);
+&nbsp;    new Chart(document.getElementById(&#39;brandChart&#39;), { 
+&nbsp;        type: &#39;bar&#39;, 
+&nbsp;        data: { labels, datasets: [{ label: &#39;GMV por Marca&#39;, data, backgroundColor: &#39;#4b7bec&#39; }] } 
+&nbsp;    });
+&nbsp;}
+&nbsp;
+&nbsp;function renderDailyChart() {
+&nbsp;    if (!state.daily) return;
+&nbsp;    const dates = Object.keys(state.daily).sort();
+&nbsp;    const gmvs = dates.map(d =&gt;
+&nbsp;        Object.values(state.daily[d].brands).reduce((a, b) =&gt; a + (b.gmv || 0), 0)
+&nbsp;    );
+&nbsp;    new Chart(document.getElementById(&#39;dailyChart&#39;), { 
+&nbsp;        type: &#39;line&#39;, 
+&nbsp;        data: { labels: dates, datasets: [{ label: &#39;Performance Diária&#39;, data: gmvs, borderColor: &#39;#1a73e8&#39;, tension: 0.1 }] } 
+&nbsp;    });
+&nbsp;}
+&nbsp;
+&nbsp;function renderDailyTable() {
+&nbsp;    if (!state.daily) return;
+&nbsp;    const tbody = document.querySelector(&#39;#dailyTable tbody&#39;);
+&nbsp;    tbody.innerHTML = &#39;&#39;;
+&nbsp;    Object.entries(state.daily).sort().forEach(([date, d]) =&gt; {
+&nbsp;        const gmv = Object.values(d.brands).reduce((a, b) =&gt; a + (b.gmv || 0), 0);
+&nbsp;        const row = &#39;&lt;tr&gt;&#39; +
+&nbsp;            &#39;&lt;td&gt;&#39; + date + &#39;&lt;/td&gt;&#39; +
+&nbsp;            &#39;&lt;td&gt;&#39; + d.totalTransactions + &#39;&lt;/td&gt;&#39; +
+&nbsp;            &#39;&lt;td&gt;&#39; + d.completeTransactions + &#39;&lt;/td&gt;&#39; +
+&nbsp;            &#39;&lt;td&gt;&#39; + d.incompleteTransactions + &#39;&lt;/td&gt;&#39; +
+&nbsp;            &#39;&lt;td&gt;&#39; + gmv.toFixed(2) + &#39;&lt;/td&gt;&#39; +
+&nbsp;            &#39;&lt;/tr&gt;&#39;;
+&nbsp;        tbody.innerHTML += row;
+&nbsp;    });
+&nbsp;}
+&nbsp;
+&nbsp;document.getElementById(&#39;evaluateAI&#39;).addEventListener(&#39;click&#39;, async () =&gt; {
+&nbsp;    const btn = document.getElementById(&#39;evaluateAI&#39;);
+&nbsp;    const responseDiv = document.getElementById(&#39;aiResponse&#39;);
+&nbsp;    btn.innerHTML = &#39;&lt;span class=&quot;loading-spinner&quot;&gt;&lt;/span&gt; Analisando Dados...&#39;;
+&nbsp;    btn.disabled = true;
+&nbsp;
+&nbsp;    const promptText = &quot;Você como um expert de avaliação de GMV por marcas, avalie os seguintes dados e forneça insights sobre tendências e saúde das transações: &quot; + JSON.stringify(state);
+&nbsp;    const url = &quot;https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=&quot; + GEMINI_API_KEY;
+&nbsp;
+&nbsp;    try {
+&nbsp;        const res = await fetch(url, {
+&nbsp;            method: &#39;POST&#39;,
+&nbsp;            headers: { &#39;Content-Type&#39;: &#39;application/json&#39; },
+&nbsp;            body: JSON.stringify({ contents: [{ parts: [{ text: promptText }] }] })
+&nbsp;        });
+&nbsp;
+&nbsp;        const data = await res.json();
+&nbsp;        if (data.candidates &amp;&amp; data.candidates[0].content) {
+&nbsp;            const resultText = data.candidates[0].content.parts[0].text;
+&nbsp;            responseDiv.style.display = &quot;block&quot;;
+&nbsp;            responseDiv.innerText = &quot;ANÁLISE DO ESPECIALISTA:\\n\\n&quot; + resultText;
+&nbsp;            window.scrollTo({ top: 0, behavior: &#39;smooth&#39; });
+&nbsp;        } else {
+&nbsp;            throw new Error(data.error ? data.error.message : &quot;Erro na resposta da IA&quot;);
+&nbsp;        }
+&nbsp;    } catch (e) {
+&nbsp;        console.error(e);
+&nbsp;        alert(&quot;Erro ao consultar Gemini: &quot; + e.message);
+&nbsp;    } finally {
+&nbsp;        btn.innerText = &quot;Avaliar com Gemini AI&quot;;
+&nbsp;        btn.disabled = false;
+&nbsp;    }
+&nbsp;});
+&nbsp;
+&nbsp;init();
+&nbsp;&lt;/script&gt;
+&nbsp;&lt;/body&gt;
+&nbsp;&lt;/html&gt;
+&nbsp;&quot;&quot;&quot;, apiKey);
+&nbsp;    }
+&nbsp;
+&nbsp;    private HtmlReportGenerator() {}
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2026-02-12 01:14</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > App</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.hypr.marketIntelligenceTokens</a>
+</div>
+
+<h1>Coverage Summary for Class: App (com.hypr.marketIntelligenceTokens)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">App</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/2)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/13)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package com.hypr.marketIntelligenceTokens;
+&nbsp;
+&nbsp;import com.hypr.marketIntelligenceTokens.analysis.BrandGmvAnalyzer;
+&nbsp;import com.hypr.marketIntelligenceTokens.analysis.DailyBrandOverviewAnalyzer;
+&nbsp;import com.hypr.marketIntelligenceTokens.analysis.SkuConcentrationAnalyzer;
+&nbsp;import com.hypr.marketIntelligenceTokens.loader.DatasetLoader;
+&nbsp;import com.hypr.marketIntelligenceTokens.model.TransactionModel;
+&nbsp;import com.hypr.marketIntelligenceTokens.pipeline.OverviewPipeline;
+&nbsp;import com.hypr.marketIntelligenceTokens.report.HtmlReportGenerator;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.util.List;
+&nbsp;
+<b class="nc">&nbsp;public class App {</b>
+&nbsp;
+&nbsp;    public static void main(String[] args) {
+&nbsp;
+<b class="nc">&nbsp;        System.out.println(&quot;Market Intelligence Tokens!&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;        Path csvPath = Path.of(args[0]);</b>
+<b class="nc">&nbsp;        Path outputDir = Path.of(&quot;TransactionAnalysis&quot;);</b>
+&nbsp;
+&nbsp;        try {
+&nbsp;
+<b class="nc">&nbsp;            List&lt;TransactionModel&gt; dataset = DatasetLoader.load(csvPath);</b>
+<b class="nc">&nbsp;            System.out.println(&quot;Dataset carregado com sucesso.&quot;);</b>
+&nbsp;
+<b class="nc">&nbsp;            SkuConcentrationAnalyzer.analyze(dataset, outputDir);</b>
+<b class="nc">&nbsp;            BrandGmvAnalyzer.analyze(dataset, outputDir);</b>
+<b class="nc">&nbsp;            DailyBrandOverviewAnalyzer.analyze(dataset, outputDir);</b>
+<b class="nc">&nbsp;            OverviewPipeline.generate(csvPath, outputDir);</b>
+&nbsp;
+<b class="nc">&nbsp;            HtmlReportGenerator.generate(outputDir);</b>
+&nbsp;
+&nbsp;        } catch (IOException e) {
+<b class="nc">&nbsp;            e.printStackTrace();</b>
+<b class="nc">&nbsp;            throw new RuntimeException(e);</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2026-02-12 01:14</div>
+</div>
+</body>
+</html>
