@@ -6,6 +6,7 @@ import com.hypr.marketIntelligenceTokens.analysis.SkuConcentrationAnalyzer;
 import com.hypr.marketIntelligenceTokens.loader.DatasetLoader;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 import com.hypr.marketIntelligenceTokens.pipeline.OverviewPipeline;
+import com.hypr.marketIntelligenceTokens.report.HtmlReportGenerator;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -29,6 +30,8 @@ public class App {
             BrandGmvAnalyzer.analyze(dataset, outputDir);
             DailyBrandOverviewAnalyzer.analyze(dataset, outputDir);
             OverviewPipeline.generate(csvPath, outputDir);
+
+            HtmlReportGenerator.generate(outputDir);
 
         } catch (IOException e) {
             e.printStackTrace();
