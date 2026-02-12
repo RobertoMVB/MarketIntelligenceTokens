@@ -1,0 +1,148 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > DatasetLoader</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.hypr.marketIntelligenceTokens.loader</a>
+</div>
+
+<h1>Coverage Summary for Class: DatasetLoader (com.hypr.marketIntelligenceTokens.loader)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">DatasetLoader</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (16/16)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package com.hypr.marketIntelligenceTokens.loader;
+&nbsp;
+&nbsp;import com.hypr.marketIntelligenceTokens.model.ParsedTransaction;
+&nbsp;import com.hypr.marketIntelligenceTokens.model.TransactionModel;
+&nbsp;import com.hypr.marketIntelligenceTokens.parser.TransactionCsvParser;
+&nbsp;
+&nbsp;import java.io.IOException;
+&nbsp;import java.nio.file.Files;
+&nbsp;import java.nio.file.Path;
+&nbsp;import java.util.List;
+&nbsp;import java.util.Optional;
+&nbsp;import java.util.stream.Collectors;
+&nbsp;
+&nbsp;public class DatasetLoader {
+&nbsp;
+&nbsp;    private DatasetLoader() {}
+&nbsp;
+&nbsp;    public static List&lt;TransactionModel&gt; load(Path csvPath) throws IOException {
+&nbsp;
+<b class="fc">&nbsp;        return Files.lines(csvPath)</b>
+<b class="fc">&nbsp;                .skip(1) // header</b>
+<b class="fc">&nbsp;                .map(DatasetLoader::parseLine)</b>
+<b class="fc">&nbsp;                .flatMap(Optional::stream)</b>
+<b class="fc">&nbsp;                .collect(Collectors.toList());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    private static Optional&lt;TransactionModel&gt; parseLine(String line) {
+&nbsp;
+<b class="fc">&nbsp;        Optional&lt;ParsedTransaction&gt; parsed =</b>
+<b class="fc">&nbsp;                TransactionCsvParser.parse(line);</b>
+&nbsp;
+<b class="fc">&nbsp;        return parsed.map(p -&gt;</b>
+<b class="fc">&nbsp;                new TransactionModel(</b>
+<b class="fc">&nbsp;                        p.timestamp(),</b>
+<b class="fc">&nbsp;                        p.token(),</b>
+<b class="fc">&nbsp;                        p.sku(),</b>
+<b class="fc">&nbsp;                        p.brand(),</b>
+<b class="fc">&nbsp;                        p.gmv(),</b>
+<b class="fc">&nbsp;                        p.quantity(),</b>
+<b class="fc">&nbsp;                        p.complete()</b>
+&nbsp;                )
+&nbsp;        );
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2026-02-12 01:14</div>
+</div>
+</body>
+</html>

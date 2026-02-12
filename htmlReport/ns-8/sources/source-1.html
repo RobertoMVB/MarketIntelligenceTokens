@@ -1,0 +1,147 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <title>Coverage Report > TransactionAggregator</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.hypr.marketIntelligenceTokens.service</a>
+</div>
+
+<h1>Coverage Summary for Class: TransactionAggregator (com.hypr.marketIntelligenceTokens.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Branch, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">TransactionAggregator</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (3/3)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (4/4)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (9/9)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package com.hypr.marketIntelligenceTokens.service;
+&nbsp;
+&nbsp;import com.hypr.marketIntelligenceTokens.model.OverviewResult;
+&nbsp;import com.hypr.marketIntelligenceTokens.model.TransactionModel;
+&nbsp;
+&nbsp;import java.math.BigDecimal;
+&nbsp;
+<b class="fc">&nbsp;public class TransactionAggregator {</b>
+&nbsp;
+<b class="fc">&nbsp;    private BigDecimal totalGmv = BigDecimal.ZERO;</b>
+<b class="fc">&nbsp;    private long totalQuantity = 0;</b>
+<b class="fc">&nbsp;    private long totalTransactions = 0;</b>
+&nbsp;
+&nbsp;    public void accept(TransactionModel tx) {
+<b class="fc">&nbsp;        if (tx == null || !tx.isComplete()) {</b>
+&nbsp;            return;
+&nbsp;        }
+&nbsp;
+<b class="fc">&nbsp;        totalTransactions++;</b>
+<b class="fc">&nbsp;        totalQuantity += tx.getQuantity();</b>
+<b class="fc">&nbsp;        totalGmv = totalGmv.add(tx.getGmv());</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public OverviewResult result() {
+<b class="fc">&nbsp;        return new OverviewResult(</b>
+&nbsp;                totalTransactions,
+&nbsp;                totalQuantity,
+&nbsp;                totalGmv
+&nbsp;        );
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2026-02-12 01:14</div>
+</div>
+</body>
+</html>
