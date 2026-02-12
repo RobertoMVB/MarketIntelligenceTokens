@@ -15,21 +15,26 @@ import java.util.stream.Collectors;
 public class BrandGmvAnalyzer {
 
     public static void analyze(List<TransactionModel> dataset, Path outputDir) throws IOException {
-        if (dataset.isEmpty()) {
-            System.out.println("Dataset vazio.");
+        List<TransactionModel> validDataset = dataset.stream()
+                .filter(t -> t.getGmv() != null)
+                .toList();
+
+        if (validDataset.isEmpty()) {
+            System.out.println("Dataset vazio ou sem GMV válido.");
             return;
         }
 
-        BigDecimal totalGmv = dataset.stream()
+        BigDecimal totalGmv = validDataset.stream()
                 .map(TransactionModel::getGmv)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        Map<Integer, BigDecimal> gmvByBrand = dataset.stream()
+        Map<Integer, BigDecimal> gmvByBrand = validDataset.stream()
                 .collect(Collectors.groupingBy(
                         TransactionModel::getBrand,
-                        Collectors.mapping(
+                        Collectors.reducing(
+                                BigDecimal.ZERO,
                                 TransactionModel::getGmv,
-                                Collectors.reducing(BigDecimal.ZERO, BigDecimal::add)
+                                BigDecimal::add
                         )
                 ));
 
@@ -38,7 +43,6 @@ public class BrandGmvAnalyzer {
                         .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                         .toList();
 
-        // LOG
         System.out.println("=== GMV por Brand ===");
 
         StringBuilder json = new StringBuilder();
@@ -49,7 +53,7 @@ public class BrandGmvAnalyzer {
 
             BigDecimal share = entry.getValue()
                     .divide(totalGmv, 4, RoundingMode.HALF_UP)
-                    .multiply(new BigDecimal("100"));
+                    .multiply(BigDecimal.valueOf(100));
 
             System.out.println(
                     "Brand " + entry.getKey() +
