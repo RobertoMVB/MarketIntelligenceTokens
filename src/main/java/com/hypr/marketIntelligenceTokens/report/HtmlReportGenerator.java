@@ -1,3 +1,19 @@
+package com.hypr.marketIntelligenceTokens.report;
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public final class HtmlReportGenerator {
+
+    public static void generate(Path outputDir) throws IOException {
+        Files.createDirectories(outputDir);
+        Files.writeString(outputDir.resolve("index.html"), html());
+        System.out.println("HTML report gerado com gráficos.");
+    }
+
+    private static String html() {
+        return """
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -142,3 +158,8 @@ init();
 
 </body>
 </html>
+""";
+    }
+
+    private HtmlReportGenerator() {}
+}
