@@ -9,7 +9,7 @@ public final class HtmlReportGenerator {
     public static void generate(Path outputDir) throws IOException {
         Files.createDirectories(outputDir);
         Files.writeString(outputDir.resolve("index.html"), html());
-        System.out.println("HTML report gerado com gráficos.");
+        System.out.println("HTML report gerado com gráficos completos.");
     }
 
     private static String html() {
@@ -18,139 +18,141 @@ public final class HtmlReportGenerator {
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Transaction Analysis</title>
+<title>Market Intelligence Report</title>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <style>
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f8;
-    margin: 32px;
-}
-.card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 24px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,.08);
-}
-h1, h2 {
-    margin-top: 0;
-}
-canvas {
-    max-height: 300px;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 8px;
-    border-bottom: 1px solid #ddd;
-}
-th {
-    background: #eee;
-}
+body { font-family: Arial, sans-serif; background: #f5f6fa; margin: 20px; color: #333; }
+h1 { margin-bottom: 5px; }
+.subtitle { color: #666; margin-bottom: 20px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; margin-bottom: 30px; }
+.card { background: white; padding: 15px; border-radius: 6px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+.card h3 { margin: 0; font-size: 14px; color: #777; }
+.card p { margin: 5px 0 0; font-size: 22px; font-weight: bold; }
+.section { background: white; padding: 20px; border-radius: 6px; margin-bottom: 30px; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 8px; border-bottom: 1px solid #eee; text-align: right; }
+th { background: #fafafa; }
+th:first-child, td:first-child { text-align: left; }
 </style>
 </head>
 
 <body>
 
-<h1>Transaction Analysis Report</h1>
+<h1>Market Intelligence</h1>
+<div class="subtitle">Relatório local — arquivo único</div>
 
-<div class="card">
-    <h2>Overview</h2>
-    <pre id="overview"></pre>
-</div>
+<div class="cards" id="cards"></div>
 
-<div class="card">
+<div class="section">
     <h2>GMV por Brand</h2>
     <canvas id="brandChart"></canvas>
-    <br>
-    <table>
-        <thead>
-        <tr>
-            <th>Brand</th>
-            <th>GMV</th>
-            <th>Share (%)</th>
-        </tr>
-        </thead>
-        <tbody id="brandTable"></tbody>
-    </table>
 </div>
 
-<div class="card">
+<div class="section">
     <h2>GMV por Dia</h2>
     <canvas id="dailyChart"></canvas>
 </div>
 
+<div class="section">
+    <h2>Detalhamento Diário</h2>
+    <table id="dailyTable">
+        <thead>
+        <tr>
+            <th>Data</th>
+            <th>Total Transações</th>
+            <th>Completas</th>
+            <th>Incompletas</th>
+            <th>GMV</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
 <script>
-async function loadJson(file) {
-    const res = await fetch(file);
+const state = {
+    overview: null,
+    sku: null,
+    brand: null,
+    daily: null
+};
+
+// Carrega os JSONs automaticamente
+async function loadJson(name) {
+    const res = await fetch(name);
     return res.json();
 }
 
-async function renderOverview() {
-    const data = await loadJson('overview.json');
-    document.getElementById('overview').textContent =
-        JSON.stringify(data, null, 2);
-}
-
-async function renderBrandGmv() {
-    const data = await loadJson('brand_gmv.json');
-
-    const labels = data.brands.map(b => 'Brand ' + b.brand);
-    const values = data.brands.map(b => b.gmv);
-
-    new Chart(document.getElementById('brandChart'), {
-        type: 'bar',
-        data: {
-            labels,
-            datasets: [{
-                label: 'GMV',
-                data: values
-            }]
-        }
-    });
-
-    const tbody = document.getElementById('brandTable');
-    data.brands.forEach(b => {
-        const tr = document.createElement('tr');
-        tr.innerHTML = `
-            <td>${b.brand}</td>
-            <td>${b.gmv.toFixed(2)}</td>
-            <td>${b.sharePercent.toFixed(2)}</td>
-        `;
-        tbody.appendChild(tr);
-    });
-}
-
-async function renderDaily() {
-    const data = await loadJson('daily_brand_overview.json');
-
-    const dates = Object.keys(data);
-    const totals = dates.map(d =>
-        Object.values(data[d]).reduce((a, b) => a + b, 0)
-    );
-
-    new Chart(document.getElementById('dailyChart'), {
-        type: 'line',
-        data: {
-            labels: dates,
-            datasets: [{
-                label: 'GMV Diário',
-                data: totals,
-                fill: false
-            }]
-        }
-    });
-}
-
 async function init() {
-    await renderOverview();
-    await renderBrandGmv();
-    await renderDaily();
+    try {
+        state.overview = await loadJson('overview.json');
+        state.sku = await loadJson('sku_concentration.json');
+        state.brand = await loadJson('brand_gmv.json');
+        state.daily = await loadJson('daily_brand_overview.json');
+        render();
+    } catch (e) {
+        console.error('Erro ao carregar os JSONs:', e);
+        alert('Não foi possível carregar os dados. Verifique se os arquivos JSON estão na mesma pasta do HTML.');
+    }
+}
+
+function render() {
+    renderCards();
+    renderBrandChart();
+    renderDailyChart();
+    renderDailyTable();
+}
+
+function renderCards() {
+    const c = document.getElementById('cards');
+    c.innerHTML = '';
+    if (state.overview) {
+        c.innerHTML += card('Total GMV', state.overview.totalGmv.toFixed(2));
+        c.innerHTML += card('Transações', state.overview.totalTransactions);
+        c.innerHTML += card('Quantidade', state.overview.totalQuantity);
+    }
+    if (state.sku) {
+        c.innerHTML += card('SKUs Totais', state.sku.totalSkus);
+        c.innerHTML += card('SKUs 80% GMV', state.sku.skusFor80PercentGmv);
+    }
+}
+
+function card(title, value) {
+    return `<div class="card"><h3>${title}</h3><p>${value}</p></div>`;
+}
+
+function renderBrandChart() {
+    if (!state.brand) return;
+    const labels = state.brand.brands.map(b => b.brand);
+    const data = state.brand.brands.map(b => b.gmv);
+    new Chart(document.getElementById('brandChart'), { type: 'bar', data: { labels, datasets: [{ label: 'GMV', data }] } });
+}
+
+function renderDailyChart() {
+    if (!state.daily) return;
+    const dates = Object.keys(state.daily).sort();
+    const gmvs = dates.map(d =>
+        Object.values(state.daily[d].brands).reduce((a, b) => a + b.gmv, 0)
+    );
+    new Chart(document.getElementById('dailyChart'), { type: 'line', data: { labels: dates, datasets: [{ label: 'GMV Diário', data: gmvs }] } });
+}
+
+function renderDailyTable() {
+    if (!state.daily) return;
+    const tbody = document.querySelector('#dailyTable tbody');
+    tbody.innerHTML = '';
+    Object.entries(state.daily).sort().forEach(([date, d]) => {
+        const gmv = Object.values(d.brands).reduce((a, b) => a + b.gmv, 0);
+        tbody.innerHTML += `<tr>
+            <td>${date}</td>
+            <td>${d.totalTransactions}</td>
+            <td>${d.completeTransactions}</td>
+            <td>${d.incompleteTransactions}</td>
+            <td>${gmv.toFixed(2)}</td>
+        </tr>`;
+    });
 }
 
 init();
