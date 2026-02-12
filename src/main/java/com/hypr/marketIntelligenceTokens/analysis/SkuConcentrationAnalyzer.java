@@ -15,16 +15,21 @@ import java.util.stream.Collectors;
 public class SkuConcentrationAnalyzer {
 
     public static void analyze(List<TransactionModel> dataset, Path outputDir) throws IOException {
-        if (dataset.isEmpty()) {
-            System.out.println("Dataset vazio.");
+
+        List<TransactionModel> completeTransactions = dataset.stream()
+                .filter(TransactionModel::isComplete)
+                .toList();
+
+        if (completeTransactions.isEmpty()) {
+            System.out.println("Nenhuma transação completa para análise de SKU.");
             return;
         }
 
-        BigDecimal totalGmv = dataset.stream()
+        BigDecimal totalGmv = completeTransactions.stream()
                 .map(TransactionModel::getGmv)
                 .reduce(BigDecimal.ZERO, BigDecimal::add);
 
-        Map<Long, BigDecimal> gmvBySku = dataset.stream()
+        Map<Long, BigDecimal> gmvBySku = completeTransactions.stream()
                 .collect(Collectors.groupingBy(
                         TransactionModel::getSku,
                         Collectors.mapping(

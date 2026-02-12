@@ -1,5 +1,6 @@
 package com.hypr.marketIntelligenceTokens.loader;
 
+import com.hypr.marketIntelligenceTokens.model.ParsedTransaction;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 import com.hypr.marketIntelligenceTokens.parser.TransactionCsvParser;
 
@@ -8,40 +9,36 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Stream;
+import java.util.stream.Collectors;
 
 public class DatasetLoader {
 
-    public static List<TransactionModel> load(Path csvPath, boolean parallel) throws IOException {
-        AtomicInteger invalidLines = new AtomicInteger(0);
+    private DatasetLoader() {}
 
-        try (Stream<String> lines = Files.lines(csvPath)) {
+    public static List<TransactionModel> load(Path csvPath) throws IOException {
 
-            Stream<String> dataStream = lines.skip(1); // ignora header
-
-            if (parallel) {
-                dataStream = dataStream.parallel();
-            }
-
-            List<TransactionModel> dataset = dataStream
-                    .map(TransactionCsvParser::parse)
-                    .peek(opt -> {
-                        if (opt.isEmpty()) {
-                            invalidLines.incrementAndGet();
-                        }
-                    })
-                    .flatMap(Optional::stream)
-                    .toList();
-
-            System.out.println("Linhas válidas: " + dataset.size());
-            System.out.println("Linhas inválidas ignoradas: " + invalidLines.get());
-
-            return dataset;
-        }
+        return Files.lines(csvPath)
+                .skip(1) // header
+                .map(DatasetLoader::parseLine)
+                .flatMap(Optional::stream)
+                .collect(Collectors.toList());
     }
 
-    private DatasetLoader() {
+    private static Optional<TransactionModel> parseLine(String line) {
 
+        Optional<ParsedTransaction> parsed =
+                TransactionCsvParser.parse(line);
+
+        return parsed.map(p ->
+                new TransactionModel(
+                        p.timestamp(),
+                        p.token(),
+                        p.sku(),
+                        p.brand(),
+                        p.gmv(),
+                        p.quantity(),
+                        p.complete()
+                )
+        );
     }
 }

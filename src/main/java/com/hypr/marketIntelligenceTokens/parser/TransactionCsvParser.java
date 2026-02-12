@@ -1,55 +1,59 @@
 package com.hypr.marketIntelligenceTokens.parser;
 
-import com.hypr.marketIntelligenceTokens.model.TransactionModel;
+import com.hypr.marketIntelligenceTokens.model.ParsedTransaction;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
+import java.util.Locale;
 import java.util.Optional;
 
 public class TransactionCsvParser {
 
-    // MM/DD/YYYY HH:MM:SS
     private static final DateTimeFormatter DATE_FORMAT =
-            DateTimeFormatter.ofPattern("M/d/yyyy HH:mm:ss");
+            DateTimeFormatter.ofPattern("MMM d, yyyy, hh:mm:ss a", Locale.ENGLISH);
 
-    private TransactionCsvParser() {
-        // utility class
-    }
+    private TransactionCsvParser() {}
 
-    public static Optional<TransactionModel> parse(String csvLine) {
+    public static Optional<ParsedTransaction> parse(String line) {
         try {
-            String[] columns = csvLine.split(",");
+            if (!line.startsWith("\"")) return Optional.empty();
 
-            if (columns.length < 6) {
-                return Optional.empty();
-            }
+            int endDate = line.indexOf("\",");
+            if (endDate < 0) return Optional.empty();
 
-            LocalDateTime timestamp = parseDate(columns[0]);
-            String token = columns[1].trim();
-            long sku = Long.parseLong(columns[2].trim());
-            BigDecimal gmv = new BigDecimal(columns[3].trim());
-            int quantity = Integer.parseInt(columns[4].trim());
-            int brand = Integer.parseInt(columns[5].trim());
+            String rawDate = line.substring(1, endDate);
+            LocalDateTime timestamp = LocalDateTime.parse(rawDate, DATE_FORMAT);
 
-            return Optional.of(new TransactionModel(
-                    timestamp,
-                    token,
-                    sku,
-                    gmv,
-                    quantity,
-                    brand
-            ));
+            String[] cols = line.substring(endDate + 2).split(",", -1);
 
-        } catch (NumberFormatException | DateTimeParseException e) {
-            // linha inválida ou suja → ignora
+            // token, sku, gmv, quantity, brand
+            if (cols.length < 5) return Optional.empty();
+
+            String token = cols[0].trim();
+
+            Long sku = cols[1].isBlank() ? null : Long.parseLong(cols[1].trim());
+            BigDecimal gmv = cols[2].isBlank() ? null : new BigDecimal(cols[2].trim());
+            Integer quantity = cols[3].isBlank() ? null : Integer.parseInt(cols[3].trim());
+            Integer brand = cols[4].isBlank() ? null : Integer.parseInt(cols[4].trim());
+
+            boolean complete =
+                    sku != null && gmv != null && quantity != null && brand != null;
+
+            return Optional.of(
+                    new ParsedTransaction(
+                            timestamp,
+                            token,
+                            sku,
+                            brand,
+                            gmv,
+                            quantity,
+                            complete
+                    )
+            );
+
+        } catch (Exception e) {
             return Optional.empty();
         }
     }
-
-    private static LocalDateTime parseDate(String raw) {
-        return LocalDateTime.parse(raw.trim(), DATE_FORMAT);
-    }
 }
-

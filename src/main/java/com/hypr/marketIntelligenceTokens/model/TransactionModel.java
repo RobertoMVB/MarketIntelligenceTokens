@@ -5,58 +5,37 @@ import java.time.LocalDateTime;
 
 public class TransactionModel {
 
-    /*
-    BigDecimal para GMV → precisão financeira
-    String para token → preservação total do identificador
-    Modelo imutável → segurança e paralelismo
-    */
-
     private final LocalDateTime timestamp;
     private final String token;
-    private final long sku;
-    private final BigDecimal gmv;
-    private final int quantity;
-    private final int brand;
+    private final Long sku;          // pode ser null
+    private final Integer brand;     // pode ser null
+    private final BigDecimal gmv;     // pode ser null se incompleta
+    private final Integer quantity;  // pode ser null se incompleta
+    private final boolean complete;
 
     public TransactionModel(
             LocalDateTime timestamp,
             String token,
-            long sku,
+            Long sku,
+            Integer brand,
             BigDecimal gmv,
-            int quantity,
-            int brand
+            Integer quantity,
+            boolean complete
     ) {
         this.timestamp = timestamp;
         this.token = token;
         this.sku = sku;
+        this.brand = brand;
         this.gmv = gmv;
         this.quantity = quantity;
-        this.brand = brand;
+        this.complete = complete;
     }
 
-    public LocalDateTime getTimestamp() {
-        return timestamp;
-    }
-
-    public String getToken() {
-        return token;
-    }
-
-    public long getSku() {
-        return sku;
-    }
-
-    public BigDecimal getGmv() {
-        return gmv;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public int getBrand() {
-        return brand;
-    }
-
-
+    public LocalDateTime getTimestamp() { return timestamp; }
+    public String getToken() { return token; }
+    public Long getSku() { return sku; }
+    public Integer getBrand() { return brand; }
+    public BigDecimal getGmv() { return gmv; }
+    public Integer getQuantity() { return quantity; }
+    public boolean isComplete() { return complete; }
 }
