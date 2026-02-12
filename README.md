@@ -31,11 +31,11 @@ This approach balances **accuracy, scalability, and cost** by leveraging a light
 Before running the project, you must create a properties file with your GEMINI API key.  
 Request the key from Roberto (the repository owner).
 
-1. Create the file at:
+### 1. Create the file at:
 ```bash
 src/main/resources/application.properties
 ```
-2. Add the following line, replacing `GEMINI_KEY` with the key provided:
+### 2. Add the following line, replacing `GEMINI_KEY` with the key provided:
 ```bash
 ai.key=GEMINI_KEY
 ```
@@ -48,19 +48,19 @@ The input CSV file **must follow the format** of the sample file:
 
 ## How to Run
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/RobertoMVB/MarketIntelligenceTokens.git
 cd MarketIntelligenceTokens
 ```
 
-2. Build the project and generate the JAR using Maven:
+### 2. Build the project and generate the JAR using Maven:
 ```bash
 mvn clean package
 ```
 
-3. Run the project by providing the path to the generated JAR and the CSV file:
+### 3. Run the project by providing the path to the generated JAR and the CSV file:
 ```bash
 java -jar target/market-intelligence-tokens-1.0-SNAPSHOT.jar PASTE_CSV_PATH_HERE
 ```
@@ -68,8 +68,18 @@ java -jar target/market-intelligence-tokens-1.0-SNAPSHOT.jar PASTE_CSV_PATH_HERE
 Replace PASTE_CSV_PATH_HERE with the full path to your input CSV file.
 ```bash
 java -jar target/market-intelligence-tokens-1.0-SNAPSHOT.jar SampleData/HYPR_Challenge_RMNF_FY26.csv
-
 ```
 
 Make sure the CSV file strictly **follows the exact format of the sample file**.
 
+### 4. Open the generated web page for analysis:
+After running the JAR, go to the generated folder and open the HTML page:
+```bash
+TransactionAnalysis/index.html
+```
+On this page, you can:
+
+ - View the extracted structured data
+ - Use the AI Analysis button to request further insights and interpretation of the dataset
+
+This project transforms raw transactional data into structured JSON, enabling data interpretation, visualization in a web page, and AI-assisted analysis. It demonstrates the methodology used, trade-offs considered, and provides a reliable structured dataset ready for further analysis.
