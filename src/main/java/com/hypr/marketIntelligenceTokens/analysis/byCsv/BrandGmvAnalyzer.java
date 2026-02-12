@@ -1,4 +1,4 @@
-package com.hypr.marketIntelligenceTokens.analysis;
+package com.hypr.marketIntelligenceTokens.analysis.byCsv;
 
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 

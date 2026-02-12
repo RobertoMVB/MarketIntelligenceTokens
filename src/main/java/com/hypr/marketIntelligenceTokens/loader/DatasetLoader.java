@@ -1,8 +1,9 @@
 package com.hypr.marketIntelligenceTokens.loader;
 
+import com.hypr.marketIntelligenceTokens.dto.transaction.TransactionDTO;
 import com.hypr.marketIntelligenceTokens.model.ParsedTransaction;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
-import com.hypr.marketIntelligenceTokens.parser.TransactionCsvParser;
+import com.hypr.marketIntelligenceTokens.parser.csv.TransactionCsvParser;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,7 +16,11 @@ public class DatasetLoader {
 
     private DatasetLoader() {}
 
-    public static List<TransactionModel> load(Path csvPath) throws IOException {
+    public static  List<TransactionDTO> loadJson(Path jsPath) throws IOException {
+        return null;
+    }
+
+    public static List<TransactionModel> loadCSV(Path csvPath) throws IOException {
 
         return Files.lines(csvPath)
                 .skip(1) // header

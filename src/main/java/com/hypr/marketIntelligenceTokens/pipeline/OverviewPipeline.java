@@ -20,7 +20,7 @@ public class OverviewPipeline {
      */
     public static void generate(Path csvPath, Path outputDir) throws IOException {
 
-        List<TransactionModel> transactions = DatasetLoader.load(csvPath);
+        List<TransactionModel> transactions = DatasetLoader.loadCSV(csvPath);
 
         OverviewPipeline pipeline = new OverviewPipeline();
         OverviewResult result = pipeline.run(transactions);

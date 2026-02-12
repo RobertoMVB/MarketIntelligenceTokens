@@ -1,5 +1,6 @@
 package com.hypr.marketIntelligenceTokens.analysis;
 
+import com.hypr.marketIntelligenceTokens.analysis.byCsv.BrandGmvAnalyzer;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 import org.junit.Test;
 

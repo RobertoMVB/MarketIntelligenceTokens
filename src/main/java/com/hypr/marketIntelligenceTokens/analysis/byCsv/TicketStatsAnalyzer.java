@@ -1,4 +1,4 @@
-package com.hypr.marketIntelligenceTokens.analysis;
+package com.hypr.marketIntelligenceTokens.analysis.byCsv;
 
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 
@@ -8,7 +8,6 @@ import java.math.MathContext;
 import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Comparator;
 import java.util.List;
 
 public class TicketStatsAnalyzer {

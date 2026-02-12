@@ -1,6 +1,7 @@
 package com.hypr.marketIntelligenceTokens.parser;
 
 import com.hypr.marketIntelligenceTokens.model.ParsedTransaction;
+import com.hypr.marketIntelligenceTokens.parser.csv.TransactionCsvParser;
 import org.junit.Test;
 
 import java.math.BigDecimal;

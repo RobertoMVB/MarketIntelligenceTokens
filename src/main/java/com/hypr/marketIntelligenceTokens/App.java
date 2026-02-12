@@ -1,8 +1,8 @@
 package com.hypr.marketIntelligenceTokens;
 
-import com.hypr.marketIntelligenceTokens.analysis.BrandGmvAnalyzer;
-import com.hypr.marketIntelligenceTokens.analysis.DailyBrandOverviewAnalyzer;
-import com.hypr.marketIntelligenceTokens.analysis.SkuConcentrationAnalyzer;
+import com.hypr.marketIntelligenceTokens.analysis.byCsv.BrandGmvAnalyzer;
+import com.hypr.marketIntelligenceTokens.analysis.byCsv.DailyBrandOverviewAnalyzer;
+import com.hypr.marketIntelligenceTokens.analysis.byCsv.SkuConcentrationAnalyzer;
 import com.hypr.marketIntelligenceTokens.loader.DatasetLoader;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 import com.hypr.marketIntelligenceTokens.pipeline.OverviewPipeline;
@@ -23,7 +23,7 @@ public class App {
 
         try {
 
-            List<TransactionModel> dataset = DatasetLoader.load(csvPath);
+            List<TransactionModel> dataset = DatasetLoader.loadCSV(csvPath);
             System.out.println("Dataset carregado com sucesso.");
 
             SkuConcentrationAnalyzer.analyze(dataset, outputDir);

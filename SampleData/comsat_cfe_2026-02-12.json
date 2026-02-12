@@ -1,0 +1,6679 @@
+[
+  {
+    "capturado_em": "2026-02-12T14:16:06.239Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5572 4275 4209",
+      "data_emissao": "25/05/2025",
+      "hora_emissao": "18:43:20",
+      "numero": "055724",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77744",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:16:05.433Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5572 4275 4209",
+      "data_emissao": "25/05/2025",
+      "hora_emissao": "18:43:20",
+      "numero": "055724",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77744",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:13:34.952Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5511 4043 9607",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "11:18:47",
+      "numero": "055114",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76865",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 31.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 31.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.99
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:13:34.145Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5511 4043 9607",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "11:18:47",
+      "numero": "055114",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76865",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 31.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 31.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.99
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:12:00.517Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5590 1399 0539",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "14:31:50",
+      "numero": "055901",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 78018",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 31.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 31.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.99
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:11:59.711Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5590 1399 0539",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "14:31:50",
+      "numero": "055901",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 78018",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 31.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 31.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.99
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:09:59.031Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5577 3122 3583",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "12:54:19",
+      "numero": "055773",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77820",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Dinheiro",
+        "valor": 20
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 17.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 5.59
+    },
+    "troco": 2.2
+  },
+  {
+    "capturado_em": "2026-02-12T14:09:58.225Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5577 3122 3583",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "12:54:19",
+      "numero": "055773",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77820",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Dinheiro",
+        "valor": 20
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 17.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 5.59
+    },
+    "troco": 2.2
+  },
+  {
+    "capturado_em": "2026-02-12T14:07:34.201Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5588 3215 1527",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "12:29:36",
+      "numero": "055883",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77977",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:07:33.396Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5588 3215 1527",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "12:29:36",
+      "numero": "055883",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77977",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:06:04.677Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5588 0913 8633",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "12:07:16",
+      "numero": "055880",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77974",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:06:03.871Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5588 0913 8633",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "12:07:16",
+      "numero": "055880",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77974",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 17.8,
+        "vl_tributos": 5.6,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 24.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 24.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:04:46.562Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5568 9832 6809",
+      "data_emissao": "25/05/2025",
+      "hora_emissao": "13:32:27",
+      "numero": "055689",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77689",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000697",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V GOIABA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 44.77
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 44.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 14.31
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:04:45.760Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5568 9832 6809",
+      "data_emissao": "25/05/2025",
+      "hora_emissao": "13:32:27",
+      "numero": "055689",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77689",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000697",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V GOIABA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 44.77
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 44.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 14.31
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:02:53.252Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5470 4299 6031",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "09:43:48",
+      "numero": "054704",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76203",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 17.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 17.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 5.59
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:02:52.446Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5470 4299 6031",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "09:43:48",
+      "numero": "054704",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76203",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 17.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 17.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 5.59
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:00:43.845Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5509 7414 8466",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "09:26:51",
+      "numero": "055097",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76847",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000634",
+        "desconto_item": 0,
+        "descricao": "CF.BOLO CASEIRO LARA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.99,
+        "vl_tributos": 2.4,
+        "vl_unitario": 8.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 22.58
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 22.58,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 6.69
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T14:00:43.042Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5509 7414 8466",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "09:26:51",
+      "numero": "055097",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76847",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000634",
+        "desconto_item": 0,
+        "descricao": "CF.BOLO CASEIRO LARA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.99,
+        "vl_tributos": 2.4,
+        "vl_unitario": 8.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 22.58
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 22.58,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 6.69
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:59:32.169Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5358 4311 5943",
+      "data_emissao": "07/05/2025",
+      "hora_emissao": "15:25:04",
+      "numero": "053584",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74614",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.5,
+        "vl_tributos": 2.13,
+        "vl_unitario": 6.5
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 26.1
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 26.1,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 2.13
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:59:31.368Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5358 4311 5943",
+      "data_emissao": "07/05/2025",
+      "hora_emissao": "15:25:04",
+      "numero": "053584",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74614",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.5,
+        "vl_tributos": 2.13,
+        "vl_unitario": 6.5
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 26.1
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 26.1,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 2.13
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:56:35.579Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5502 3184 8021",
+      "data_emissao": "19/05/2025",
+      "hora_emissao": "12:19:20",
+      "numero": "055023",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76698",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Dinheiro",
+        "valor": 20
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 19.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 6.22
+    },
+    "troco": 0.23
+  },
+  {
+    "capturado_em": "2026-02-12T13:56:34.777Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5502 3184 8021",
+      "data_emissao": "19/05/2025",
+      "hora_emissao": "12:19:20",
+      "numero": "055023",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76698",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Dinheiro",
+        "valor": 20
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 19.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 6.22
+    },
+    "troco": 0.23
+  },
+  {
+    "capturado_em": "2026-02-12T13:53:41.429Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5586 5542 3783",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "10:02:45",
+      "numero": "055865",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77958",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.9,
+        "vl_tributos": 0,
+        "vl_unitario": 5.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.9,
+        "vl_tributos": 0,
+        "vl_unitario": 5.9
+      },
+      {
+        "codigo": "AR000493",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO FGO C/REQ",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000493",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO FGO C/REQ",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000926",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.PEQ",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.5,
+        "vl_tributos": 1.42,
+        "vl_unitario": 4.5
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 43.1
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.1,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.84
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:53:40.622Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5586 5542 3783",
+      "data_emissao": "27/05/2025",
+      "hora_emissao": "10:02:45",
+      "numero": "055865",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77958",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.9,
+        "vl_tributos": 0,
+        "vl_unitario": 5.9
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.9,
+        "vl_tributos": 0,
+        "vl_unitario": 5.9
+      },
+      {
+        "codigo": "AR000493",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO FGO C/REQ",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000493",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO FGO C/REQ",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000926",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.PEQ",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.5,
+        "vl_tributos": 1.42,
+        "vl_unitario": 4.5
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 43.1
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.1,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.84
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:52:46.961Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5498 4128 9367",
+      "data_emissao": "18/05/2025",
+      "hora_emissao": "14:11:35",
+      "numero": "054984",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76621",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000578",
+        "desconto_item": 0,
+        "descricao": "CF.TORTA SALGADA PAL",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 2.65,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000243",
+        "desconto_item": 0,
+        "descricao": "CF.ESFIHA CALABRESA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 25.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 25.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.67
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:52:46.155Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5498 4128 9367",
+      "data_emissao": "18/05/2025",
+      "hora_emissao": "14:11:35",
+      "numero": "054984",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76621",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000578",
+        "desconto_item": 0,
+        "descricao": "CF.TORTA SALGADA PAL",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 2.65,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000243",
+        "desconto_item": 0,
+        "descricao": "CF.ESFIHA CALABRESA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 25.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 25.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.67
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:51:49.828Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5471 2702 8765",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "10:11:43",
+      "numero": "054712",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76211",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000532",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000532",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE FRANGO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 37.6
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 37.6,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 11.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:51:49.026Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5471 2702 8765",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "10:11:43",
+      "numero": "054712",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76211",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000532",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000532",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE FRANGO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 37.6
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 37.6,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 11.81
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:50:18.551Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5574 3750 0540",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "09:38:05",
+      "numero": "055743",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77789",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000641",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000641",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 26.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 26.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 8.44
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:50:17.745Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5574 3750 0540",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "09:38:05",
+      "numero": "055743",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77789",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000641",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE QUEIJO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000641",
+        "desconto_item": 0,
+        "descricao": "CF.CIGARRETE QUEIJO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.9,
+        "vl_tributos": 3.11,
+        "vl_unitario": 9.9
+      },
+      {
+        "codigo": "AR000258",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA S/A",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Outros",
+        "valor": 26.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 26.59,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 8.44
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:48:55.239Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5472 1180 0171",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "11:00:27",
+      "numero": "054721",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76222",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000610",
+        "desconto_item": 0,
+        "descricao": "CF.HAMBURGUER DE CAR",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000610",
+        "desconto_item": 0,
+        "descricao": "CF.HAMBURGUER DE CAR",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000166",
+        "desconto_item": 0,
+        "descricao": "CF.BOLINHO QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000166",
+        "desconto_item": 0,
+        "descricao": "CF.BOLINHO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000157",
+        "desconto_item": 0,
+        "descricao": "CF.REFR.LIQ.KAPO UVA",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.19,
+        "vl_tributos": 1.37,
+        "vl_unitario": 4.19
+      },
+      {
+        "codigo": "AR000697",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V GOIABA LT",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000779",
+        "desconto_item": 0,
+        "descricao": "CF.DONUTS KITKAT",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.99,
+        "vl_tributos": 2.4,
+        "vl_unitario": 8.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 58.27
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 58.27,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 18.02
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:48:54.432Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5472 1180 0171",
+      "data_emissao": "16/05/2025",
+      "hora_emissao": "11:00:27",
+      "numero": "054721",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76222",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000610",
+        "desconto_item": 0,
+        "descricao": "CF.HAMBURGUER DE CAR",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000610",
+        "desconto_item": 0,
+        "descricao": "CF.HAMBURGUER DE CAR",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000166",
+        "desconto_item": 0,
+        "descricao": "CF.BOLINHO QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000166",
+        "desconto_item": 0,
+        "descricao": "CF.BOLINHO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000157",
+        "desconto_item": 0,
+        "descricao": "CF.REFR.LIQ.KAPO UVA",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.19,
+        "vl_tributos": 1.37,
+        "vl_unitario": 4.19
+      },
+      {
+        "codigo": "AR000697",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V GOIABA LT",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000779",
+        "desconto_item": 0,
+        "descricao": "CF.DONUTS KITKAT",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.99,
+        "vl_tributos": 2.4,
+        "vl_unitario": 8.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 58.27
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 58.27,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 18.02
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:47:31.083Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5581 6547 8123",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "19:20:02",
+      "numero": "055816",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77885",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000691",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V.MANGA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 43.19
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.19,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.65
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:47:30.281Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5581 6547 8123",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "19:20:02",
+      "numero": "055816",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77885",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000691",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V.MANGA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 43.19
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.19,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.65
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:41:13.480Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5581 6547 8123",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "19:20:02",
+      "numero": "055816",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77885",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000691",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V.MANGA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 43.19
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.19,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.65
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:41:12.677Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5581 6547 8123",
+      "data_emissao": "26/05/2025",
+      "hora_emissao": "19:20:02",
+      "numero": "055816",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 77885",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000691",
+        "desconto_item": 0,
+        "descricao": "CF.DEL V.MANGA LT",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.49,
+        "vl_tributos": 1.79,
+        "vl_unitario": 5.49
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 43.19
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 43.19,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.65
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:40:06.224Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5436 7311 3920",
+      "data_emissao": "13/05/2025",
+      "hora_emissao": "11:08:44",
+      "numero": "054367",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 75702",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 28.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 28.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.05
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:40:05.418Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5436 7311 3920",
+      "data_emissao": "13/05/2025",
+      "hora_emissao": "11:08:44",
+      "numero": "054367",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 75702",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR000923",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE LEITECAP MED",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 28.8
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 28.8,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 9.05
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:38:15.047Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5354 8633 3260",
+      "data_emissao": "07/05/2025",
+      "hora_emissao": "12:39:05",
+      "numero": "053548",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74573",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 8,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 9,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 10,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 11,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 12,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000883",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO PALMITO",
+        "item": 13,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000668",
+        "desconto_item": 0,
+        "descricao": "CF.BEB.LACTEA TP",
+        "item": 14,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 3.99,
+        "vl_tributos": 1.3,
+        "vl_unitario": 3.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 101.37
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 101.37,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 28.41
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:38:14.241Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5354 8633 3260",
+      "data_emissao": "07/05/2025",
+      "hora_emissao": "12:39:05",
+      "numero": "053548",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74573",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000522",
+        "desconto_item": 0,
+        "descricao": "CF.CAPPUCINO MEDIO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7,
+        "vl_tributos": 2.2,
+        "vl_unitario": 7
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000589",
+        "desconto_item": 0,
+        "descricao": "CF.PAO QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.9,
+        "vl_tributos": 0,
+        "vl_unitario": 4.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000264",
+        "desconto_item": 0,
+        "descricao": "CF.PAO BATATA C/REQ",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 8,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 9,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000588",
+        "desconto_item": 0,
+        "descricao": "CF.ESPETO DE FRANGO",
+        "item": 10,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 11,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 12,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000883",
+        "desconto_item": 0,
+        "descricao": "CF.FOLHADO PALMITO",
+        "item": 13,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000668",
+        "desconto_item": 0,
+        "descricao": "CF.BEB.LACTEA TP",
+        "item": 14,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 3.99,
+        "vl_tributos": 1.3,
+        "vl_unitario": 3.99
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 101.37
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 101.37,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 28.41
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:37:24.439Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5376 9981 0038",
+      "data_emissao": "08/05/2025",
+      "hora_emissao": "18:09:22",
+      "numero": "053769",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74857",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 23.7,
+        "vl_tributos": 7.45,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 23.7
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 23.7,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.46
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:37:23.637Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5376 9981 0038",
+      "data_emissao": "08/05/2025",
+      "hora_emissao": "18:09:22",
+      "numero": "053769",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 74857",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 23.7,
+        "vl_tributos": 7.45,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 23.7
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 23.7,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 7.46
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:36:27.396Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5456 1408 5423",
+      "data_emissao": "15/05/2025",
+      "hora_emissao": "09:02:30",
+      "numero": "054561",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 75997",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000242",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA PRES/QUEI",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 34.6
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 34.6,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 10.88
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:36:26.590Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5456 1408 5423",
+      "data_emissao": "15/05/2025",
+      "hora_emissao": "09:02:30",
+      "numero": "054561",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 75997",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000242",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA PRES/QUEI",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 34.6
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 34.6,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 10.88
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:35:03.975Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5509 5612 8696",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "09:11:00",
+      "numero": "055095",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76845",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 47.98
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 47.98,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.1
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:35:03.168Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5509 5612 8696",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "09:11:00",
+      "numero": "055095",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76845",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000516",
+        "desconto_item": 0,
+        "descricao": "CF.CHOC.QUENTE MD",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.19,
+        "vl_tributos": 1.26,
+        "vl_unitario": 7.19
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000347",
+        "desconto_item": 0,
+        "descricao": "CF.FOGAZZA QUEIJO",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.9,
+        "vl_tributos": 2.48,
+        "vl_unitario": 7.9
+      },
+      {
+        "codigo": "AR000492",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO RE",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000172",
+        "desconto_item": 0,
+        "descricao": "CF.CROISSANT FGO C/R",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 47.98
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 47.98,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 13.1
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:33:32.878Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5511 9427 0376",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "11:51:49",
+      "numero": "055119",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76870",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000739",
+        "desconto_item": 0,
+        "descricao": "CF.REF.FANTA UVA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000226",
+        "desconto_item": 0,
+        "descricao": "CF.ENROLADINHO SALSI",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000973",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA CALABRESA",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000973",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA CALABRESA",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 55.77
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 55.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 17.71
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:33:32.070Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 0740 5511 9427 0376",
+      "data_emissao": "20/05/2025",
+      "hora_emissao": "11:51:49",
+      "numero": "055119",
+      "pdv_transacao": "PDV : 27 - TRANSACAO : 76870",
+      "sat_numero_serie": "001401074-79",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR000925",
+        "desconto_item": 0,
+        "descricao": "CF.CAFE CAP.MED",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.59,
+        "vl_tributos": 2.07,
+        "vl_unitario": 6.59
+      },
+      {
+        "codigo": "AR000718",
+        "desconto_item": 0,
+        "descricao": "CF.REF.COCA COLA",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000739",
+        "desconto_item": 0,
+        "descricao": "CF.REF.FANTA UVA",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 6.79,
+        "vl_tributos": 2.22,
+        "vl_unitario": 6.79
+      },
+      {
+        "codigo": "AR000226",
+        "desconto_item": 0,
+        "descricao": "CF.ENROLADINHO SALSI",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000973",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA CALABRESA",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000973",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA CALABRESA",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR000234",
+        "desconto_item": 0,
+        "descricao": "CF.COXINHA FRANGO",
+        "item": 7,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 8.9,
+        "vl_tributos": 2.8,
+        "vl_unitario": 8.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 55.77
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": 0,
+      "total": 55.77,
+      "total_bruto_itens": 0,
+      "total_descontos_itens": 0,
+      "total_tributos_aprox": 17.71
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:28:54.768Z",
+    "consumidor": {
+      "cpf_cnpj": "XXX.XXX.XX8-97",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 9006 5900 1401 3770 5643 7370 8222",
+      "data_emissao": "02/05/2025",
+      "hora_emissao": "10:30:26",
+      "numero": "056437",
+      "pdv_transacao": "PDV : 6 - TRANSACAO : 10227",
+      "sat_numero_serie": "001401377-00",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0590-06",
+      "endereco": {
+        "bairro": "VILA LEOPOLDINA",
+        "cep": "05317-000",
+        "logradouro": "AVENIDA JOSE CESAR DE OLIVEIRA, Nº 500 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204298114",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR068326",
+        "desconto_item": 0,
+        "descricao": "LAVA ROUPA LIQ.ARIEL",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 48.9,
+        "vl_tributos": 0,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR054300",
+        "desconto_item": 0,
+        "descricao": "AGUA SANIT. DACLOR",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.99,
+        "vl_tributos": 3.14,
+        "vl_unitario": 9.99
+      },
+      {
+        "codigo": "AR009097",
+        "desconto_item": 0,
+        "descricao": "DET.LIQ.YPE CARE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.39,
+        "vl_tributos": 0,
+        "vl_unitario": 2.39
+      },
+      {
+        "codigo": "AR019033",
+        "desconto_item": 0.3,
+        "descricao": "DET.LIQ.LIMPOL",
+        "item": 4,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 6.75,
+        "vl_tributos": 0,
+        "vl_unitario": 2.25
+      },
+      {
+        "codigo": "AR076901",
+        "desconto_item": 0,
+        "descricao": "MOLHO SALSARETTI VDO",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 13.9,
+        "vl_tributos": 4.37,
+        "vl_unitario": 13.9
+      },
+      {
+        "codigo": "AR025774",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO TTO",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.95,
+        "vl_tributos": 2.5,
+        "vl_unitario": 7.95
+      },
+      {
+        "codigo": "AR023113",
+        "desconto_item": 0,
+        "descricao": "AZEITE ANDOR.EX.VIRG",
+        "item": 7,
+        "qtd": 1,
+        "un": "GFA9",
+        "vl_item": 36.9,
+        "vl_tributos": 0,
+        "vl_unitario": 36.9
+      },
+      {
+        "codigo": "AR094622",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 8,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR094620",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 9,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR034787",
+        "desconto_item": 0,
+        "descricao": "AZEITE OLIVA GALLO",
+        "item": 10,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 23.9,
+        "vl_tributos": 0,
+        "vl_unitario": 23.9
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 11,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 12,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR022534",
+        "desconto_item": 1.32,
+        "descricao": "CR.D.COLGATE MPA",
+        "item": 13,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 20.67,
+        "vl_tributos": 5.18,
+        "vl_unitario": 6.89
+      },
+      {
+        "codigo": "AR001832",
+        "desconto_item": 0,
+        "descricao": "MARACUJA TROPICAL",
+        "item": 14,
+        "qtd": 0.67,
+        "un": "KG9",
+        "vl_item": 8.64,
+        "vl_tributos": 2.72,
+        "vl_unitario": 12.9
+      },
+      {
+        "codigo": "AR063754",
+        "desconto_item": 0,
+        "descricao": "FL.ALUM.30X4M PRATSY",
+        "item": 15,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 5.76,
+        "vl_tributos": 1.87,
+        "vl_unitario": 2.88
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 2,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 16,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 41,
+        "vl_tributos": 12.27,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR004760",
+        "desconto_item": 0,
+        "descricao": "PEIXE POLACA",
+        "item": 17,
+        "qtd": 0.562,
+        "un": "KG9",
+        "vl_item": 28.04,
+        "vl_tributos": 0,
+        "vl_unitario": 49.9
+      },
+      {
+        "codigo": "AR085615",
+        "desconto_item": 0,
+        "descricao": "MUSS. SOBERANO FAT",
+        "item": 18,
+        "qtd": 0.614,
+        "un": "KG9",
+        "vl_item": 30.02,
+        "vl_tributos": 6.86,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 19,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 20,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR057062",
+        "desconto_item": 0,
+        "descricao": "SAB.DOVE BRANCO",
+        "item": 21,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 26.99,
+        "vl_tributos": 13.14,
+        "vl_unitario": 26.99
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 22,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 23,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR002952",
+        "desconto_item": 0,
+        "descricao": "FILME PVC LUSAFILM",
+        "item": 24,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 34.9,
+        "vl_tributos": 11.38,
+        "vl_unitario": 34.9
+      },
+      {
+        "codigo": "AR062679",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 25,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR062694",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 26,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR012658",
+        "desconto_item": 0,
+        "descricao": "ARROZ CAMIL AG.T1",
+        "item": 27,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 23.5,
+        "vl_tributos": 7.39,
+        "vl_unitario": 23.5
+      },
+      {
+        "codigo": "AR074397",
+        "desconto_item": 0,
+        "descricao": "GUARDANAPO ELITE",
+        "item": 28,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 21,
+        "vl_tributos": 7.6,
+        "vl_unitario": 10.5
+      },
+      {
+        "codigo": "AR001626",
+        "desconto_item": 0,
+        "descricao": "COUVE MANTEIGA",
+        "item": 29,
+        "qtd": 1,
+        "un": "MCO9",
+        "vl_item": 3.55,
+        "vl_tributos": 1.12,
+        "vl_unitario": 3.55
+      },
+      {
+        "codigo": "AR055029",
+        "desconto_item": 0,
+        "descricao": "CHICL.MENTOS PURE FR",
+        "item": 30,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 26.7,
+        "vl_tributos": 8.4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR056883",
+        "desconto_item": 0,
+        "descricao": "PILHA PANASONIC L8P6",
+        "item": 31,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 16.9,
+        "vl_tributos": 5.79,
+        "vl_unitario": 16.9
+      },
+      {
+        "codigo": "AR056936",
+        "desconto_item": 0,
+        "descricao": "PAPEL HIG.PERSONAL",
+        "item": 32,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 38.78,
+        "vl_tributos": 12.2,
+        "vl_unitario": 19.39
+      },
+      {
+        "codigo": "AR041256",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO ALCO",
+        "item": 33,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.99,
+        "vl_tributos": 0.94,
+        "vl_unitario": 2.99
+      },
+      {
+        "codigo": "AR067492",
+        "desconto_item": 0,
+        "descricao": "ERVILHA BONARE LATA",
+        "item": 34,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 3.09,
+        "vl_tributos": 0.97,
+        "vl_unitario": 3.09
+      },
+      {
+        "codigo": "AR008958",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA RAL.OLE",
+        "item": 35,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 14.58,
+        "vl_tributos": 4.59,
+        "vl_unitario": 7.29
+      },
+      {
+        "codigo": "AR042364",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA P.OLEO",
+        "item": 36,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.3,
+        "vl_tributos": 3.24,
+        "vl_unitario": 10.3
+      },
+      {
+        "codigo": "AR014691",
+        "desconto_item": 0,
+        "descricao": "BATATA LAVADA",
+        "item": 37,
+        "qtd": 0.685,
+        "un": "KG9",
+        "vl_item": 4.66,
+        "vl_tributos": 1.47,
+        "vl_unitario": 6.8
+      },
+      {
+        "codigo": "AR016297",
+        "desconto_item": 0,
+        "descricao": "FILTRO PAPEL MELITTA",
+        "item": 38,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.29,
+        "vl_tributos": 1.4,
+        "vl_unitario": 4.29
+      },
+      {
+        "codigo": "AR058663",
+        "desconto_item": 0,
+        "descricao": "QJO RALADO PRESIDENT",
+        "item": 39,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 5.12,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR086012",
+        "desconto_item": 0,
+        "descricao": "QJO PARM.FAIXA AZUL",
+        "item": 40,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 27.5,
+        "vl_tributos": 6.28,
+        "vl_unitario": 27.5
+      },
+      {
+        "codigo": "AR086313",
+        "desconto_item": 0,
+        "descricao": "BISC.PIRAQUE",
+        "item": 41,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.59,
+        "vl_tributos": 1.76,
+        "vl_unitario": 5.59
+      },
+      {
+        "codigo": "AR002994",
+        "desconto_item": 0,
+        "descricao": "FEIJAO BROTO LEGAL",
+        "item": 42,
+        "qtd": 2,
+        "un": "PCT9",
+        "vl_item": 15.4,
+        "vl_tributos": 4.84,
+        "vl_unitario": 7.7
+      },
+      {
+        "codigo": "AR021176",
+        "desconto_item": 0,
+        "descricao": "ACUC.REF.UNIAO",
+        "item": 43,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 4.4,
+        "vl_tributos": 1.38,
+        "vl_unitario": 4.4
+      },
+      {
+        "codigo": "AR014254",
+        "desconto_item": 0,
+        "descricao": "DES.NIVEA ROLL-ON",
+        "item": 44,
+        "qtd": 1,
+        "un": "UND8",
+        "vl_item": 8.9,
+        "vl_tributos": 4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR060621",
+        "desconto_item": 0,
+        "descricao": "OLEO GIRASSOL",
+        "item": 45,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.79,
+        "vl_tributos": 4.59,
+        "vl_unitario": 10.79
+      },
+      {
+        "codigo": "AR001920",
+        "desconto_item": 0,
+        "descricao": "CENOURA",
+        "item": 46,
+        "qtd": 0.35,
+        "un": "KG9",
+        "vl_item": 1.49,
+        "vl_tributos": 0.47,
+        "vl_unitario": 4.25
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 764.58
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -7.62,
+      "total": 764.58,
+      "total_bruto_itens": 772.2,
+      "total_descontos_itens": -7.62,
+      "total_tributos_aprox": 197.79
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:28:53.953Z",
+    "consumidor": {
+      "cpf_cnpj": "XXX.XXX.XX8-97",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 9006 5900 1401 3770 5643 7370 8222",
+      "data_emissao": "02/05/2025",
+      "hora_emissao": "10:30:26",
+      "numero": "056437",
+      "pdv_transacao": "PDV : 6 - TRANSACAO : 10227",
+      "sat_numero_serie": "001401377-00",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0590-06",
+      "endereco": {
+        "bairro": "VILA LEOPOLDINA",
+        "cep": "05317-000",
+        "logradouro": "AVENIDA JOSE CESAR DE OLIVEIRA, Nº 500 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204298114",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR068326",
+        "desconto_item": 0,
+        "descricao": "LAVA ROUPA LIQ.ARIEL",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 48.9,
+        "vl_tributos": 0,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR054300",
+        "desconto_item": 0,
+        "descricao": "AGUA SANIT. DACLOR",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.99,
+        "vl_tributos": 3.14,
+        "vl_unitario": 9.99
+      },
+      {
+        "codigo": "AR009097",
+        "desconto_item": 0,
+        "descricao": "DET.LIQ.YPE CARE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.39,
+        "vl_tributos": 0,
+        "vl_unitario": 2.39
+      },
+      {
+        "codigo": "AR019033",
+        "desconto_item": 0.3,
+        "descricao": "DET.LIQ.LIMPOL",
+        "item": 4,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 6.75,
+        "vl_tributos": 0,
+        "vl_unitario": 2.25
+      },
+      {
+        "codigo": "AR076901",
+        "desconto_item": 0,
+        "descricao": "MOLHO SALSARETTI VDO",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 13.9,
+        "vl_tributos": 4.37,
+        "vl_unitario": 13.9
+      },
+      {
+        "codigo": "AR025774",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO TTO",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.95,
+        "vl_tributos": 2.5,
+        "vl_unitario": 7.95
+      },
+      {
+        "codigo": "AR023113",
+        "desconto_item": 0,
+        "descricao": "AZEITE ANDOR.EX.VIRG",
+        "item": 7,
+        "qtd": 1,
+        "un": "GFA9",
+        "vl_item": 36.9,
+        "vl_tributos": 0,
+        "vl_unitario": 36.9
+      },
+      {
+        "codigo": "AR094622",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 8,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR094620",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 9,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR034787",
+        "desconto_item": 0,
+        "descricao": "AZEITE OLIVA GALLO",
+        "item": 10,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 23.9,
+        "vl_tributos": 0,
+        "vl_unitario": 23.9
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 11,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 12,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR022534",
+        "desconto_item": 1.32,
+        "descricao": "CR.D.COLGATE MPA",
+        "item": 13,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 20.67,
+        "vl_tributos": 5.18,
+        "vl_unitario": 6.89
+      },
+      {
+        "codigo": "AR001832",
+        "desconto_item": 0,
+        "descricao": "MARACUJA TROPICAL",
+        "item": 14,
+        "qtd": 0.67,
+        "un": "KG9",
+        "vl_item": 8.64,
+        "vl_tributos": 2.72,
+        "vl_unitario": 12.9
+      },
+      {
+        "codigo": "AR063754",
+        "desconto_item": 0,
+        "descricao": "FL.ALUM.30X4M PRATSY",
+        "item": 15,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 5.76,
+        "vl_tributos": 1.87,
+        "vl_unitario": 2.88
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 2,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 16,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 41,
+        "vl_tributos": 12.27,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR004760",
+        "desconto_item": 0,
+        "descricao": "PEIXE POLACA",
+        "item": 17,
+        "qtd": 0.562,
+        "un": "KG9",
+        "vl_item": 28.04,
+        "vl_tributos": 0,
+        "vl_unitario": 49.9
+      },
+      {
+        "codigo": "AR085615",
+        "desconto_item": 0,
+        "descricao": "MUSS. SOBERANO FAT",
+        "item": 18,
+        "qtd": 0.614,
+        "un": "KG9",
+        "vl_item": 30.02,
+        "vl_tributos": 6.86,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 19,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 20,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR057062",
+        "desconto_item": 0,
+        "descricao": "SAB.DOVE BRANCO",
+        "item": 21,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 26.99,
+        "vl_tributos": 13.14,
+        "vl_unitario": 26.99
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 22,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 23,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR002952",
+        "desconto_item": 0,
+        "descricao": "FILME PVC LUSAFILM",
+        "item": 24,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 34.9,
+        "vl_tributos": 11.38,
+        "vl_unitario": 34.9
+      },
+      {
+        "codigo": "AR062679",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 25,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR062694",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 26,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR012658",
+        "desconto_item": 0,
+        "descricao": "ARROZ CAMIL AG.T1",
+        "item": 27,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 23.5,
+        "vl_tributos": 7.39,
+        "vl_unitario": 23.5
+      },
+      {
+        "codigo": "AR074397",
+        "desconto_item": 0,
+        "descricao": "GUARDANAPO ELITE",
+        "item": 28,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 21,
+        "vl_tributos": 7.6,
+        "vl_unitario": 10.5
+      },
+      {
+        "codigo": "AR001626",
+        "desconto_item": 0,
+        "descricao": "COUVE MANTEIGA",
+        "item": 29,
+        "qtd": 1,
+        "un": "MCO9",
+        "vl_item": 3.55,
+        "vl_tributos": 1.12,
+        "vl_unitario": 3.55
+      },
+      {
+        "codigo": "AR055029",
+        "desconto_item": 0,
+        "descricao": "CHICL.MENTOS PURE FR",
+        "item": 30,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 26.7,
+        "vl_tributos": 8.4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR056883",
+        "desconto_item": 0,
+        "descricao": "PILHA PANASONIC L8P6",
+        "item": 31,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 16.9,
+        "vl_tributos": 5.79,
+        "vl_unitario": 16.9
+      },
+      {
+        "codigo": "AR056936",
+        "desconto_item": 0,
+        "descricao": "PAPEL HIG.PERSONAL",
+        "item": 32,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 38.78,
+        "vl_tributos": 12.2,
+        "vl_unitario": 19.39
+      },
+      {
+        "codigo": "AR041256",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO ALCO",
+        "item": 33,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.99,
+        "vl_tributos": 0.94,
+        "vl_unitario": 2.99
+      },
+      {
+        "codigo": "AR067492",
+        "desconto_item": 0,
+        "descricao": "ERVILHA BONARE LATA",
+        "item": 34,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 3.09,
+        "vl_tributos": 0.97,
+        "vl_unitario": 3.09
+      },
+      {
+        "codigo": "AR008958",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA RAL.OLE",
+        "item": 35,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 14.58,
+        "vl_tributos": 4.59,
+        "vl_unitario": 7.29
+      },
+      {
+        "codigo": "AR042364",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA P.OLEO",
+        "item": 36,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.3,
+        "vl_tributos": 3.24,
+        "vl_unitario": 10.3
+      },
+      {
+        "codigo": "AR014691",
+        "desconto_item": 0,
+        "descricao": "BATATA LAVADA",
+        "item": 37,
+        "qtd": 0.685,
+        "un": "KG9",
+        "vl_item": 4.66,
+        "vl_tributos": 1.47,
+        "vl_unitario": 6.8
+      },
+      {
+        "codigo": "AR016297",
+        "desconto_item": 0,
+        "descricao": "FILTRO PAPEL MELITTA",
+        "item": 38,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.29,
+        "vl_tributos": 1.4,
+        "vl_unitario": 4.29
+      },
+      {
+        "codigo": "AR058663",
+        "desconto_item": 0,
+        "descricao": "QJO RALADO PRESIDENT",
+        "item": 39,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 5.12,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR086012",
+        "desconto_item": 0,
+        "descricao": "QJO PARM.FAIXA AZUL",
+        "item": 40,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 27.5,
+        "vl_tributos": 6.28,
+        "vl_unitario": 27.5
+      },
+      {
+        "codigo": "AR086313",
+        "desconto_item": 0,
+        "descricao": "BISC.PIRAQUE",
+        "item": 41,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.59,
+        "vl_tributos": 1.76,
+        "vl_unitario": 5.59
+      },
+      {
+        "codigo": "AR002994",
+        "desconto_item": 0,
+        "descricao": "FEIJAO BROTO LEGAL",
+        "item": 42,
+        "qtd": 2,
+        "un": "PCT9",
+        "vl_item": 15.4,
+        "vl_tributos": 4.84,
+        "vl_unitario": 7.7
+      },
+      {
+        "codigo": "AR021176",
+        "desconto_item": 0,
+        "descricao": "ACUC.REF.UNIAO",
+        "item": 43,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 4.4,
+        "vl_tributos": 1.38,
+        "vl_unitario": 4.4
+      },
+      {
+        "codigo": "AR014254",
+        "desconto_item": 0,
+        "descricao": "DES.NIVEA ROLL-ON",
+        "item": 44,
+        "qtd": 1,
+        "un": "UND8",
+        "vl_item": 8.9,
+        "vl_tributos": 4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR060621",
+        "desconto_item": 0,
+        "descricao": "OLEO GIRASSOL",
+        "item": 45,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.79,
+        "vl_tributos": 4.59,
+        "vl_unitario": 10.79
+      },
+      {
+        "codigo": "AR001920",
+        "desconto_item": 0,
+        "descricao": "CENOURA",
+        "item": 46,
+        "qtd": 0.35,
+        "un": "KG9",
+        "vl_item": 1.49,
+        "vl_tributos": 0.47,
+        "vl_unitario": 4.25
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 764.58
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -7.62,
+      "total": 764.58,
+      "total_bruto_itens": 772.2,
+      "total_descontos_itens": -7.62,
+      "total_tributos_aprox": 197.79
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:27:47.875Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 4450 9183 6085 0983",
+      "data_emissao": "29/05/2025",
+      "hora_emissao": "10:03:53",
+      "numero": "091836",
+      "pdv_transacao": "PDV : 4 - TRANSACAO : 37926",
+      "sat_numero_serie": "001401445-95",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR049903",
+        "desconto_item": 1.5,
+        "descricao": "DESINF.SANOL",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 4.43,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR049069",
+        "desconto_item": 0,
+        "descricao": "SACOLA INSTITUCIONAL",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND8",
+        "vl_item": 0.48,
+        "vl_tributos": 0.18,
+        "vl_unitario": 0.24
+      },
+      {
+        "codigo": "AR095628",
+        "desconto_item": 0,
+        "descricao": "LEITE PO NINHO SACHE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 39.8,
+        "vl_tributos": 9.09,
+        "vl_unitario": 39.8
+      },
+      {
+        "codigo": "AR091475",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR088645",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHEY PARMA.",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR057583",
+        "desconto_item": 0,
+        "descricao": "COPO CHOPP 330ML",
+        "item": 6,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 13.98,
+        "vl_tributos": 5.67,
+        "vl_unitario": 6.99
+      },
+      {
+        "codigo": "AR062584",
+        "desconto_item": 0,
+        "descricao": "ACAI FROOTY CONG",
+        "item": 7,
+        "qtd": 1,
+        "un": "CXA1",
+        "vl_item": 98.9,
+        "vl_tributos": 31.1,
+        "vl_unitario": 98.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 178.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -1.5,
+      "total": 178.59,
+      "total_bruto_itens": 180.09,
+      "total_descontos_itens": -1.5,
+      "total_tributos_aprox": 54.16
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:27:47.067Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 4450 9183 6085 0983",
+      "data_emissao": "29/05/2025",
+      "hora_emissao": "10:03:53",
+      "numero": "091836",
+      "pdv_transacao": "PDV : 4 - TRANSACAO : 37926",
+      "sat_numero_serie": "001401445-95",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR049903",
+        "desconto_item": 1.5,
+        "descricao": "DESINF.SANOL",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 4.43,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR049069",
+        "desconto_item": 0,
+        "descricao": "SACOLA INSTITUCIONAL",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND8",
+        "vl_item": 0.48,
+        "vl_tributos": 0.18,
+        "vl_unitario": 0.24
+      },
+      {
+        "codigo": "AR095628",
+        "desconto_item": 0,
+        "descricao": "LEITE PO NINHO SACHE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 39.8,
+        "vl_tributos": 9.09,
+        "vl_unitario": 39.8
+      },
+      {
+        "codigo": "AR091475",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR088645",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHEY PARMA.",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR057583",
+        "desconto_item": 0,
+        "descricao": "COPO CHOPP 330ML",
+        "item": 6,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 13.98,
+        "vl_tributos": 5.67,
+        "vl_unitario": 6.99
+      },
+      {
+        "codigo": "AR062584",
+        "desconto_item": 0,
+        "descricao": "ACAI FROOTY CONG",
+        "item": 7,
+        "qtd": 1,
+        "un": "CXA1",
+        "vl_item": 98.9,
+        "vl_tributos": 31.1,
+        "vl_unitario": 98.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 178.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -1.5,
+      "total": 178.59,
+      "total_bruto_itens": 180.09,
+      "total_descontos_itens": -1.5,
+      "total_tributos_aprox": 54.16
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:27:32.431Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 4450 9183 6085 0983",
+      "data_emissao": "29/05/2025",
+      "hora_emissao": "10:03:53",
+      "numero": "091836",
+      "pdv_transacao": "PDV : 4 - TRANSACAO : 37926",
+      "sat_numero_serie": "001401445-95",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR049903",
+        "desconto_item": 1.5,
+        "descricao": "DESINF.SANOL",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 4.43,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR049069",
+        "desconto_item": 0,
+        "descricao": "SACOLA INSTITUCIONAL",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND8",
+        "vl_item": 0.48,
+        "vl_tributos": 0.18,
+        "vl_unitario": 0.24
+      },
+      {
+        "codigo": "AR095628",
+        "desconto_item": 0,
+        "descricao": "LEITE PO NINHO SACHE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 39.8,
+        "vl_tributos": 9.09,
+        "vl_unitario": 39.8
+      },
+      {
+        "codigo": "AR091475",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR088645",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHEY PARMA.",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR057583",
+        "desconto_item": 0,
+        "descricao": "COPO CHOPP 330ML",
+        "item": 6,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 13.98,
+        "vl_tributos": 5.67,
+        "vl_unitario": 6.99
+      },
+      {
+        "codigo": "AR062584",
+        "desconto_item": 0,
+        "descricao": "ACAI FROOTY CONG",
+        "item": 7,
+        "qtd": 1,
+        "un": "CXA1",
+        "vl_item": 98.9,
+        "vl_tributos": 31.1,
+        "vl_unitario": 98.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 178.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -1.5,
+      "total": 178.59,
+      "total_bruto_itens": 180.09,
+      "total_descontos_itens": -1.5,
+      "total_tributos_aprox": 54.16
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:27:31.622Z",
+    "consumidor": {
+      "cpf_cnpj": "",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 8972 5900 1401 4450 9183 6085 0983",
+      "data_emissao": "29/05/2025",
+      "hora_emissao": "10:03:53",
+      "numero": "091836",
+      "pdv_transacao": "PDV : 4 - TRANSACAO : 37926",
+      "sat_numero_serie": "001401445-95",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0589-72",
+      "endereco": {
+        "bairro": "JARDIM SANTO ELIAS",
+        "cep": "05110-000",
+        "logradouro": "AVENIDA MUTINGA, Nº 1300 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204289113",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR049903",
+        "desconto_item": 1.5,
+        "descricao": "DESINF.SANOL",
+        "item": 1,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 4.43,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR049069",
+        "desconto_item": 0,
+        "descricao": "SACOLA INSTITUCIONAL",
+        "item": 2,
+        "qtd": 2,
+        "un": "UND8",
+        "vl_item": 0.48,
+        "vl_tributos": 0.18,
+        "vl_unitario": 0.24
+      },
+      {
+        "codigo": "AR095628",
+        "desconto_item": 0,
+        "descricao": "LEITE PO NINHO SACHE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 39.8,
+        "vl_tributos": 9.09,
+        "vl_unitario": 39.8
+      },
+      {
+        "codigo": "AR091475",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHE",
+        "item": 4,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR088645",
+        "desconto_item": 0,
+        "descricao": "BEB.LAC.WHEY PARMA.",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.68,
+        "vl_tributos": 1.86,
+        "vl_unitario": 5.68
+      },
+      {
+        "codigo": "AR057583",
+        "desconto_item": 0,
+        "descricao": "COPO CHOPP 330ML",
+        "item": 6,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 13.98,
+        "vl_tributos": 5.67,
+        "vl_unitario": 6.99
+      },
+      {
+        "codigo": "AR062584",
+        "desconto_item": 0,
+        "descricao": "ACAI FROOTY CONG",
+        "item": 7,
+        "qtd": 1,
+        "un": "CXA1",
+        "vl_item": 98.9,
+        "vl_tributos": 31.1,
+        "vl_unitario": 98.9
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Débito",
+        "valor": 178.59
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -1.5,
+      "total": 178.59,
+      "total_bruto_itens": 180.09,
+      "total_descontos_itens": -1.5,
+      "total_tributos_aprox": 54.16
+    },
+    "troco": 0
+  },
+  {
+    "capturado_em": "2026-02-12T13:26:03.411Z",
+    "consumidor": {
+      "cpf_cnpj": "923.588.708-97",
+      "razao_social": "XXX"
+    },
+    "cupom": {
+      "chave_acesso": "3525 0593 2097 6505 9006 5900 1401 3770 5643 7370 8222",
+      "data_emissao": "02/05/2025",
+      "hora_emissao": "10:30:26",
+      "numero": "056437",
+      "pdv_transacao": "PDV : 6 - TRANSACAO : 10227",
+      "sat_numero_serie": "001401377-00",
+      "tipo": "CUPOM FISCAL ELETRÔNICO - SAT"
+    },
+    "emitente": {
+      "cnpj": "93.209.765/0590-06",
+      "endereco": {
+        "bairro": "VILA LEOPOLDINA",
+        "cep": "05317-000",
+        "logradouro": "AVENIDA JOSE CESAR DE OLIVEIRA, Nº 500 - Nao Informado",
+        "municipio": "SAO PAULO",
+        "uf": "SP"
+      },
+      "inscricao_estadual": "132204298114",
+      "inscricao_municipal": "",
+      "nome_fantasia": "ATACADAO",
+      "razao_social": "WMS SUPERMERCADOS DO BRASIL LTDA"
+    },
+    "itens": [
+      {
+        "codigo": "AR068326",
+        "desconto_item": 0,
+        "descricao": "LAVA ROUPA LIQ.ARIEL",
+        "item": 1,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 48.9,
+        "vl_tributos": 0,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR054300",
+        "desconto_item": 0,
+        "descricao": "AGUA SANIT. DACLOR",
+        "item": 2,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 9.99,
+        "vl_tributos": 3.14,
+        "vl_unitario": 9.99
+      },
+      {
+        "codigo": "AR009097",
+        "desconto_item": 0,
+        "descricao": "DET.LIQ.YPE CARE",
+        "item": 3,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.39,
+        "vl_tributos": 0,
+        "vl_unitario": 2.39
+      },
+      {
+        "codigo": "AR019033",
+        "desconto_item": 0.3,
+        "descricao": "DET.LIQ.LIMPOL",
+        "item": 4,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 6.75,
+        "vl_tributos": 0,
+        "vl_unitario": 2.25
+      },
+      {
+        "codigo": "AR076901",
+        "desconto_item": 0,
+        "descricao": "MOLHO SALSARETTI VDO",
+        "item": 5,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 13.9,
+        "vl_tributos": 4.37,
+        "vl_unitario": 13.9
+      },
+      {
+        "codigo": "AR025774",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO TTO",
+        "item": 6,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 7.95,
+        "vl_tributos": 2.5,
+        "vl_unitario": 7.95
+      },
+      {
+        "codigo": "AR023113",
+        "desconto_item": 0,
+        "descricao": "AZEITE ANDOR.EX.VIRG",
+        "item": 7,
+        "qtd": 1,
+        "un": "GFA9",
+        "vl_item": 36.9,
+        "vl_tributos": 0,
+        "vl_unitario": 36.9
+      },
+      {
+        "codigo": "AR094622",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 8,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR094620",
+        "desconto_item": 0,
+        "descricao": "DESINF.ALCOOL",
+        "item": 9,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.9,
+        "vl_tributos": 3.43,
+        "vl_unitario": 10.9
+      },
+      {
+        "codigo": "AR034787",
+        "desconto_item": 0,
+        "descricao": "AZEITE OLIVA GALLO",
+        "item": 10,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 23.9,
+        "vl_tributos": 0,
+        "vl_unitario": 23.9
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 11,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR043155",
+        "desconto_item": 0,
+        "descricao": "OLEO MILHO LIZA",
+        "item": 12,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 14.4,
+        "vl_tributos": 4.53,
+        "vl_unitario": 14.4
+      },
+      {
+        "codigo": "AR022534",
+        "desconto_item": 1.32,
+        "descricao": "CR.D.COLGATE MPA",
+        "item": 13,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 20.67,
+        "vl_tributos": 5.18,
+        "vl_unitario": 6.89
+      },
+      {
+        "codigo": "AR001832",
+        "desconto_item": 0,
+        "descricao": "MARACUJA TROPICAL",
+        "item": 14,
+        "qtd": 0.67,
+        "un": "KG9",
+        "vl_item": 8.64,
+        "vl_tributos": 2.72,
+        "vl_unitario": 12.9
+      },
+      {
+        "codigo": "AR063754",
+        "desconto_item": 0,
+        "descricao": "FL.ALUM.30X4M PRATSY",
+        "item": 15,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 5.76,
+        "vl_tributos": 1.87,
+        "vl_unitario": 2.88
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 2,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 16,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 41,
+        "vl_tributos": 12.27,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR004760",
+        "desconto_item": 0,
+        "descricao": "PEIXE POLACA",
+        "item": 17,
+        "qtd": 0.562,
+        "un": "KG9",
+        "vl_item": 28.04,
+        "vl_tributos": 0,
+        "vl_unitario": 49.9
+      },
+      {
+        "codigo": "AR085615",
+        "desconto_item": 0,
+        "descricao": "MUSS. SOBERANO FAT",
+        "item": 18,
+        "qtd": 0.614,
+        "un": "KG9",
+        "vl_item": 30.02,
+        "vl_tributos": 6.86,
+        "vl_unitario": 48.9
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 19,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR084562",
+        "desconto_item": 1,
+        "descricao": "NESCAFE DOLCE GUSTO",
+        "item": 20,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 20.5,
+        "vl_tributos": 6.13,
+        "vl_unitario": 20.5
+      },
+      {
+        "codigo": "AR057062",
+        "desconto_item": 0,
+        "descricao": "SAB.DOVE BRANCO",
+        "item": 21,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 26.99,
+        "vl_tributos": 13.14,
+        "vl_unitario": 26.99
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 22,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR070976",
+        "desconto_item": 1,
+        "descricao": "CAFE 3CORACOES",
+        "item": 23,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 34.48,
+        "vl_tributos": 10.53,
+        "vl_unitario": 34.48
+      },
+      {
+        "codigo": "AR002952",
+        "desconto_item": 0,
+        "descricao": "FILME PVC LUSAFILM",
+        "item": 24,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 34.9,
+        "vl_tributos": 11.38,
+        "vl_unitario": 34.9
+      },
+      {
+        "codigo": "AR062679",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 25,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR062694",
+        "desconto_item": 0,
+        "descricao": "SAB.JOHNSONS",
+        "item": 26,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.48,
+        "vl_tributos": 0.78,
+        "vl_unitario": 2.48
+      },
+      {
+        "codigo": "AR012658",
+        "desconto_item": 0,
+        "descricao": "ARROZ CAMIL AG.T1",
+        "item": 27,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 23.5,
+        "vl_tributos": 7.39,
+        "vl_unitario": 23.5
+      },
+      {
+        "codigo": "AR074397",
+        "desconto_item": 0,
+        "descricao": "GUARDANAPO ELITE",
+        "item": 28,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 21,
+        "vl_tributos": 7.6,
+        "vl_unitario": 10.5
+      },
+      {
+        "codigo": "AR001626",
+        "desconto_item": 0,
+        "descricao": "COUVE MANTEIGA",
+        "item": 29,
+        "qtd": 1,
+        "un": "MCO9",
+        "vl_item": 3.55,
+        "vl_tributos": 1.12,
+        "vl_unitario": 3.55
+      },
+      {
+        "codigo": "AR055029",
+        "desconto_item": 0,
+        "descricao": "CHICL.MENTOS PURE FR",
+        "item": 30,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 26.7,
+        "vl_tributos": 8.4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR056883",
+        "desconto_item": 0,
+        "descricao": "PILHA PANASONIC L8P6",
+        "item": 31,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 16.9,
+        "vl_tributos": 5.79,
+        "vl_unitario": 16.9
+      },
+      {
+        "codigo": "AR056936",
+        "desconto_item": 0,
+        "descricao": "PAPEL HIG.PERSONAL",
+        "item": 32,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 38.78,
+        "vl_tributos": 12.2,
+        "vl_unitario": 19.39
+      },
+      {
+        "codigo": "AR041256",
+        "desconto_item": 0,
+        "descricao": "VINAGRE CASTELO ALCO",
+        "item": 33,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 2.99,
+        "vl_tributos": 0.94,
+        "vl_unitario": 2.99
+      },
+      {
+        "codigo": "AR067492",
+        "desconto_item": 0,
+        "descricao": "ERVILHA BONARE LATA",
+        "item": 34,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 3.09,
+        "vl_tributos": 0.97,
+        "vl_unitario": 3.09
+      },
+      {
+        "codigo": "AR008958",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA RAL.OLE",
+        "item": 35,
+        "qtd": 2,
+        "un": "UND9",
+        "vl_item": 14.58,
+        "vl_tributos": 4.59,
+        "vl_unitario": 7.29
+      },
+      {
+        "codigo": "AR042364",
+        "desconto_item": 0,
+        "descricao": "ATUM G.COSTA P.OLEO",
+        "item": 36,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.3,
+        "vl_tributos": 3.24,
+        "vl_unitario": 10.3
+      },
+      {
+        "codigo": "AR014691",
+        "desconto_item": 0,
+        "descricao": "BATATA LAVADA",
+        "item": 37,
+        "qtd": 0.685,
+        "un": "KG9",
+        "vl_item": 4.66,
+        "vl_tributos": 1.47,
+        "vl_unitario": 6.8
+      },
+      {
+        "codigo": "AR016297",
+        "desconto_item": 0,
+        "descricao": "FILTRO PAPEL MELITTA",
+        "item": 38,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 4.29,
+        "vl_tributos": 1.4,
+        "vl_unitario": 4.29
+      },
+      {
+        "codigo": "AR058663",
+        "desconto_item": 0,
+        "descricao": "QJO RALADO PRESIDENT",
+        "item": 39,
+        "qtd": 3,
+        "un": "UND9",
+        "vl_item": 15.57,
+        "vl_tributos": 5.12,
+        "vl_unitario": 5.19
+      },
+      {
+        "codigo": "AR086012",
+        "desconto_item": 0,
+        "descricao": "QJO PARM.FAIXA AZUL",
+        "item": 40,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 27.5,
+        "vl_tributos": 6.28,
+        "vl_unitario": 27.5
+      },
+      {
+        "codigo": "AR086313",
+        "desconto_item": 0,
+        "descricao": "BISC.PIRAQUE",
+        "item": 41,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 5.59,
+        "vl_tributos": 1.76,
+        "vl_unitario": 5.59
+      },
+      {
+        "codigo": "AR002994",
+        "desconto_item": 0,
+        "descricao": "FEIJAO BROTO LEGAL",
+        "item": 42,
+        "qtd": 2,
+        "un": "PCT9",
+        "vl_item": 15.4,
+        "vl_tributos": 4.84,
+        "vl_unitario": 7.7
+      },
+      {
+        "codigo": "AR021176",
+        "desconto_item": 0,
+        "descricao": "ACUC.REF.UNIAO",
+        "item": 43,
+        "qtd": 1,
+        "un": "PCT9",
+        "vl_item": 4.4,
+        "vl_tributos": 1.38,
+        "vl_unitario": 4.4
+      },
+      {
+        "codigo": "AR014254",
+        "desconto_item": 0,
+        "descricao": "DES.NIVEA ROLL-ON",
+        "item": 44,
+        "qtd": 1,
+        "un": "UND8",
+        "vl_item": 8.9,
+        "vl_tributos": 4,
+        "vl_unitario": 8.9
+      },
+      {
+        "codigo": "AR060621",
+        "desconto_item": 0,
+        "descricao": "OLEO GIRASSOL",
+        "item": 45,
+        "qtd": 1,
+        "un": "UND9",
+        "vl_item": 10.79,
+        "vl_tributos": 4.59,
+        "vl_unitario": 10.79
+      },
+      {
+        "codigo": "AR001920",
+        "desconto_item": 0,
+        "descricao": "CENOURA",
+        "item": 46,
+        "qtd": 0.35,
+        "un": "KG9",
+        "vl_item": 1.49,
+        "vl_tributos": 0.47,
+        "vl_unitario": 4.25
+      }
+    ],
+    "pagamento": [
+      {
+        "forma": "Cartão de Crédito",
+        "valor": 764.58
+      }
+    ],
+    "status": "RESULTADO_ENCONTRADO",
+    "totais": {
+      "desconto_subtotal": -7.62,
+      "total": 764.58,
+      "total_bruto_itens": 772.2,
+      "total_descontos_itens": -7.62,
+      "total_tributos_aprox": 197.79
+    },
+    "troco": 0
+  }
+]

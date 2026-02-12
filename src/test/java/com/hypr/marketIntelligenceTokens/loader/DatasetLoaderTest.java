@@ -15,7 +15,7 @@ import static org.junit.Assert.assertTrue;
 public class DatasetLoaderTest {
 
     @Test
-    public void testLoad() throws IOException {
+    public void testLoadCSV() throws IOException {
         Path tempFile = Files.createTempFile("dataset", ".csv");
         Files.writeString(tempFile,
                 "timestamp,token,sku,gmv,quantity,brand\n" +
@@ -23,7 +23,7 @@ public class DatasetLoaderTest {
                         "\"Feb 11, 2026, 02:00:00 PM\",token2,101,20,2,3"
         );
 
-        List<TransactionModel> transactions = DatasetLoader.load(tempFile);
+        List<TransactionModel> transactions = DatasetLoader.loadCSV(tempFile);
 
         assertEquals(2, transactions.size());
 
@@ -45,11 +45,11 @@ public class DatasetLoaderTest {
     }
 
     @Test
-    public void testLoadEmptyFile() throws IOException {
+    public void testLoadCSVEmptyFile() throws IOException {
         Path tempFile = Files.createTempFile("dataset_empty", ".csv");
         Files.writeString(tempFile, "timestamp,token,sku,gmv,quantity,brand\n");
 
-        List<TransactionModel> transactions = DatasetLoader.load(tempFile);
+        List<TransactionModel> transactions = DatasetLoader.loadCSV(tempFile);
 
         assertEquals(0, transactions.size());
     }
