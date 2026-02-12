@@ -18,10 +18,7 @@ public class OverviewPipeline {
     /**
      * Ponto de entrada chamado pela App
      */
-    public static void generate(Path csvPath, Path outputDir) throws IOException {
-
-        List<TransactionModel> transactions = DatasetLoader.loadCSV(csvPath);
-
+    public static void generate(List<TransactionModel> transactions, Path outputDir) throws IOException {
         OverviewPipeline pipeline = new OverviewPipeline();
         OverviewResult result = pipeline.run(transactions);
 

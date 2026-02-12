@@ -7,6 +7,8 @@ import com.hypr.marketIntelligenceTokens.loader.DatasetLoader;
 import com.hypr.marketIntelligenceTokens.model.TransactionModel;
 import com.hypr.marketIntelligenceTokens.pipeline.OverviewPipeline;
 import com.hypr.marketIntelligenceTokens.report.HtmlReportGenerator;
+import com.hypr.marketIntelligenceTokens.service.FileType;
+import com.hypr.marketIntelligenceTokens.service.FileValidator;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -18,19 +20,21 @@ public class App {
 
         System.out.println("Market Intelligence Tokens!");
 
-        Path csvPath = Path.of(args[0]);
+        Path filePath = Path.of(args[0]);
         Path outputDir = Path.of("TransactionAnalysis");
-
         try {
-
-            List<TransactionModel> dataset = DatasetLoader.loadCSV(csvPath);
-            System.out.println("Dataset carregado com sucesso.");
-
-            SkuConcentrationAnalyzer.analyze(dataset, outputDir);
-            BrandGmvAnalyzer.analyze(dataset, outputDir);
-            DailyBrandOverviewAnalyzer.analyze(dataset, outputDir);
-            OverviewPipeline.generate(csvPath, outputDir);
-
+            switch (FileValidator.detectFileType(filePath)) {
+                case CSV : System.out.println("Arquivo CSV");
+                    List<TransactionModel> dataset = DatasetLoader.loadCSV(filePath);
+                    System.out.println("Dataset carregado com sucesso.");
+                    SkuConcentrationAnalyzer.analyze(dataset, outputDir);
+                    BrandGmvAnalyzer.analyze(dataset, outputDir);
+                    DailyBrandOverviewAnalyzer.analyze(dataset, outputDir);
+                    OverviewPipeline.generate(dataset, outputDir);
+                    break;
+                case JSON : System.out.println("Arquivo JSON");
+                case INVALID : System.out.println("Arquivo inválido");
+            }
             HtmlReportGenerator.generate(outputDir);
 
         } catch (IOException e) {
